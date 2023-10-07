@@ -1,24 +1,11 @@
 # CS Note
 
 ## Table of Contents
-1. [Binary](#binary)
-2. [Computer Memory and CPU Overview](#memory)
-
-<a id="binary"></a>
-## Binary
-<details close>
-<summary><b>(click to expand/hide)</b></summary>
-<!-- MarkdownTOC -->
-
-### Boolean logic
-#### Truth Table
-![boolean truth table](./images/boolean_truth_table.png)
-
-#### Gates
-![boolean logic gates](./images/boolean_logic_gate.png)
-
-<!-- /MarkdownTOC -->
-</details>
+1. [Computer Memory and CPU Overview](#memory)
+2. [Binary](#binary)
+3. [Flow Chart](#flow_chart)
+4. [Time Complexity](#time_complexity)
+5. [Space Complexity](#space_complexity)
 
 ---
 
@@ -71,6 +58,62 @@
 
 ---
 
+<a id="binary"></a>
+## Binary
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Boolean logic
+#### Truth Table
+![boolean truth table](./images/boolean_truth_table.png)
+
+#### Gates
+![boolean logic gates](./images/boolean_logic_gate.png)
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="flow_chart"></a>
+## Flow Chart
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
 #### flow chart example
 ![flow chart example](./images/flow_chart_example.png)
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="time_complexity"></a>
+## Time Complexity
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+#### -
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="space_complexity"></a>
+## Space Complexity
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+#### -
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 
