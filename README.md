@@ -53,6 +53,9 @@
 - Must transfer info to RAM for access.
 - **Examples**: Cloud storage, external hard drives, memory sticks.
 
+#### Resources
+- Memory can be stored side-by-side or spread out throughout your computer. For some insights on this, you might be interested in reading more about [heap versus stack memory](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/)
+
 <!-- /MarkdownTOC -->
 </details>
 
@@ -118,5 +121,3 @@
 </details>
 
 ---
-
-
