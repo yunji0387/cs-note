@@ -11,9 +11,10 @@
 
 ### Boolean logic
 #### Truth Table
-![]()
+![boolean truth table](./images/boolean_truth_table.png)
 
 #### Gates
+![boolean logic gates](./images/boolean_logic_gate.png)
 
 <!-- /MarkdownTOC -->
 </details>
