@@ -11,6 +11,7 @@
 
 ### Boolean logic
 #### Truth Table
+![]()
 
 #### Gates
 
