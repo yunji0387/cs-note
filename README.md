@@ -4,8 +4,7 @@
 1. [Computer Memory and CPU Overview](#memory)
 2. [Binary](#binary)
 3. [Flow Chart](#flow_chart)
-4. [Time Complexity](#time_complexity)
-5. [Space Complexity](#space_complexity)
+4. [Time & Space Complexity](#time&space_complexity)
 
 ---
 
@@ -93,29 +92,27 @@
 
 ---
 
-<a id="time_complexity"></a>
-## Time Complexity
+<a id="time&space_complexity"></a>
+## Time and Space Complexity
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-#### Resources
-- A discussion of [time and space costs](https://www.cs.utexas.edu/users/djimenez/utsa/cs1723/lecture2.html) and plus some helpful examples
+### Time Complexity
+![time complexity graph](./images/time_complexity_graph.png)
 
-<!-- /MarkdownTOC -->
-</details>
+### Space Complexity
+space complexity = input space + auxiliary space
 
----
+### Big-O notation (Time & space complexity)
 
-<a id="space_complexity"></a>
-## Space Complexity
-<details close>
-<summary><b>(click to expand/hide)</b></summary>
-<!-- MarkdownTOC -->
+#### Time & Space Complexity Table
+![time and complexity table](./images/time_space_complexity_table.png)
 
 #### Resources
 - A discussion of [time and space costs](https://www.cs.utexas.edu/users/djimenez/utsa/cs1723/lecture2.html) and plus some helpful examples
 - A Scaler Topics article about [space complexity](https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/)
+
 
 <!-- /MarkdownTOC -->
 </details>
