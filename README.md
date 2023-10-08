@@ -177,6 +177,10 @@ space complexity = input space + auxiliary space
 ### Searching
 
 #### Linear Search
+- Worst case: O(log N)
+- Average case: O(log N)
+- Best case: O(1)
+- Space complexity: O(N) Auxiliary
 
 #### Binary Search
 
