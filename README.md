@@ -7,7 +7,8 @@
 4. [Time & Space Complexity](#time&space_complexity)
 5. [Data Structure](#data_structure)
 6. [Sorting & Searching](#sort_search)
-
+7. [Algorithms](#algorithm)
+   
 ---
 
 <a id="memory"></a>
@@ -193,6 +194,26 @@ space complexity = input space + auxiliary space
 - Here is an article about [Quick-sort](https://www.commonlounge.com/quick-sort-video-tutorial-pseudo-code-and-in-place-sorting-608c5c7284b148eb9d550e6166303142/) with a video tutorial and pseudocode. It provides a detailed analysis of various sorting algorithms, comparisons and further links to video explanations.
 
 
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="algorithm"></a>
+## Algorithms
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Divide and Conquer
+#### Merge Sort
+
+### Recursion
+
+### Dynamic programming
+
+### Greedy algorithms
 
 <!-- /MarkdownTOC -->
 </details>
