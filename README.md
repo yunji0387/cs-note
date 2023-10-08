@@ -141,6 +141,13 @@ space complexity = input space + auxiliary space
 - This article about [Array-based lists](https://opendatastructures.org/ods-cpp/2_Array_Based_Lists.html) gives more information relating to lists that are backed by arrays.
 - This article called [What are static and dynamic data structures](https://www.scaler.com/topics/static-and-dynamic-data-structure/) gives an interesting breakdown and analysis of static and dynamic data structures
 
+### Advanced Data Structures
+#### Resources
+- When discussing hashing the probability of collisions was introduced. Learn more about the statistics behind the 
+[birthday paradox](https://www.scientificamerican.com/article/bring-science-home-probability-birthday-paradox/).
+- An excellent breakdown of [graphs](https://www.shiksha.com/online-courses/articles/graphs-in-data-structure-types-representation-operations/) with associated terminology;
+- Information on [heaps](https://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html) how to add and remove from them/
+
 <!-- /MarkdownTOC -->
 </details>
 
