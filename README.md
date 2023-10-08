@@ -212,6 +212,7 @@ space complexity = input space + auxiliary space
 ### Recursion
 
 ### Dynamic programming
+#### Memoization
 
 ### Greedy algorithms
 
