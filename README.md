@@ -6,6 +6,7 @@
 3. [Flow Chart](#flow_chart)
 4. [Time & Space Complexity](#time&space_complexity)
 5. [Data Structure](#data_structure)
+6. [Sorting & Searching](#sort_search)
 
 ---
 
@@ -147,6 +148,37 @@ space complexity = input space + auxiliary space
 [birthday paradox](https://www.scientificamerican.com/article/bring-science-home-probability-birthday-paradox/).
 - An excellent breakdown of [graphs](https://www.shiksha.com/online-courses/articles/graphs-in-data-structure-types-representation-operations/) with associated terminology;
 - Information on [heaps](https://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html) how to add and remove from them/
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="sort_search"></a>
+## Sorting and Searching
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Sorting
+
+#### Selection Sort
+- Worst case: O(N^2)
+- Average case: O(N^2)
+- Best case: O(N^2)
+- Space complexity: O(1) Auxiliary
+
+#### Quick Sort
+- Worst case: O(N^2)
+- Average case: O(N log N)
+- Best case: O(N log N)
+- Space complexity: O(N) Auxiliary
+
+### Searching
+
+#### Linear Search
+
+#### Binary Search
 
 <!-- /MarkdownTOC -->
 </details>
