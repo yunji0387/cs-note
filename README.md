@@ -126,14 +126,14 @@ space complexity = input space + auxiliary space
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-### -
-
+### Basic Data Structure
 #### Resources
 - This [Array basics](https://www.cs.fsu.edu/~myers/c++/notes/arrays.html) article provides an excellent write-up on arrays and how they are initialized and used. 
 - This article called [Immutable data structures in F#](https://www.compositional-it.com/news-blog/immutable-data-structures-in-f/) provides an analysis of mutable versus immutable data structures:
 - This article about [First-class objects](https://isaaccomputerscience.org/concepts/prog_func_first_class_objects?examBoard=all&stage=all) outlines what a first-class object is
 
-### Basic Data Structure
+### Collection Data Structures
+#### Resources
 - This article about [Understanding Java tree APIs](https://www.developer.com/design/understanding-java-tree-apis/) provides some excellent additional insight into different types of trees and the various attributes associated with them.
 - This article about [Binary trees in C](https://data-flair.training/blogs/binary-tree-in-c/) gives a breakdown of how trees are used in C. The focus is on the binary tree and the various types of binary trees and how one would implement them.
 - This article about [C# collections](https://www.tutorialspoint.com/csharp/csharp_collections.htm) gives an overview things like arraylist, hashtable, lists and so on implemented in C#.
