@@ -129,8 +129,9 @@ space complexity = input space + auxiliary space
 ### -
 
 #### Resources
-- 
-
+- This [Array basics](https://www.cs.fsu.edu/~myers/c++/notes/arrays.html) article provides an excellent write-up on arrays and how they are initialized and used. 
+- This article called [Immutable data structures in F#](https://www.compositional-it.com/news-blog/immutable-data-structures-in-f/) provides an analysis of mutable versus immutable data structures:
+- This article about [First-class objects](https://isaaccomputerscience.org/concepts/prog_func_first_class_objects?examBoard=all&stage=all) outlines what a first-class object is
 
 <!-- /MarkdownTOC -->
 </details>
