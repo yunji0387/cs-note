@@ -5,6 +5,7 @@
 2. [Binary](#binary)
 3. [Flow Chart](#flow_chart)
 4. [Time & Space Complexity](#time&space_complexity)
+5. [Data Structure](#data_structure)
 
 ---
 
@@ -112,6 +113,23 @@ space complexity = input space + auxiliary space
 #### Resources
 - A discussion of [time and space costs](https://www.cs.utexas.edu/users/djimenez/utsa/cs1723/lecture2.html) and plus some helpful examples
 - A Scaler Topics article about [space complexity](https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/)
+
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="data_structure"></a>
+## Data Structure
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### -
+
+#### Resources
+- 
 
 
 <!-- /MarkdownTOC -->
