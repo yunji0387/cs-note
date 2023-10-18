@@ -202,35 +202,6 @@
 
 ---
 
-#### Overview of Virtual Machines in Cloud Computing
-
-##### Introduction
-- **Topic:** Various types and characteristics of Virtual Machines (VMs) in cloud environments.
-
-##### Virtual Machines (VMs)
-- Also known as Virtual Servers, Virtual Instances, or simply "instances."
-- Available in multiple configurations for diverse use cases.
-- **Deployment Specifications:**
-  - Selection of Region, Zone, or Data Center.
-  - Choice of Operating System.
-- **Billing Options:** Hourly or monthly.
-- **Infrastructure Options:** Shared (multi-tenant) or dedicated (single-tenant).
-
-##### Types of VMs
-
-##### 1. Shared/Public Cloud VMs
-- Multi-tenant, provider-managed VMs.
-- Provisioned on-demand with predefined or custom sizes.
-- Configurations for various workloads (Compute Intensive, Memory Intensive, High Performance I/O).
-- Priced per hour or month.
-- **Use Cases:** General purpose applications, development environments.
-
-##### 2. Transient/Spot VMs
-- Lower-cost VMs utilizing unused cloud data center capacity.
-- Subject to de-provisioning by the provider
-
----
-
 ### Overview of Virtual Machines in Cloud Computing
 
 #### Introduction
@@ -275,6 +246,50 @@
 #### Conclusion
 - VMs are fundamental components in cloud computing, offering versatility for a wide range of use cases.
 - They deliver various benefits, including cost efficiency, scalability, and strategic performance allocation.
+
+---
+
+### Bare Metal Servers in Cloud Computing
+
+#### Definition
+- **Bare Metal Server:** A single-tenant, dedicated physical server dedicated to a single customer.
+
+#### Key Features
+- **Management by Cloud Provider:** The provider handles the server up to the OS. They ensure the hardware and rack connections are functional.
+- **Customer's Responsibility:** Administration and management above the OS level.
+- **Configuration Options:** Pre-configured by the provider or custom-configured based on customer's specifications.
+- **Additional Features:** GPUs for tasks like scientific computation, data analytics, and professional virtual graphics.
+
+#### Provisioning and Costs
+- **Provisioning Time:** 
+  - Preconfigured builds: 20-40 minutes.
+  - Custom builds: 3-4 hours.
+  - Times vary by cloud provider.
+- **Cost:** Generally more expensive than VMs due to dedicated usage.
+- **Availability:** Not all cloud providers offer bare metal servers.
+
+#### Use Cases and Advantages
+- Suitable for high-performance, highly secure, and isolated environments.
+- **Performance:** Meets the demands of high-performance computing (HPC) and data-intensive applications.
+- **Workload Examples:** ERP, CRM, AI, deep learning, virtualization, big data analytics, and GPU-intensive tasks.
+- **Security & Control:** Full customer access without needing a hypervisor; ideal for applications needing high security control.
+
+#### Bare Metal vs. Virtual Servers
+- **Bare Metal Advantages:**
+  - Best for CPU and I/O intensive workloads.
+  - Highest performance and security.
+  - Satisfies strict compliance requirements.
+  - Complete flexibility, control, and transparency.
+  - Comes with added management and operational overhead.
+- **Virtual Servers Advantages:**
+  - Rapid provisioning.
+  - Elastic and scalable.
+  - Lower cost.
+  - Limitations in performance and throughput due to shared hardware.
+
+#### Conclusion
+- **Bare Metal Servers:** Ideal for high-performance and security-centric applications.
+- **Virtual Servers:** Best for quick, scalable, and cost-effective solutions.
 
 ---
 
