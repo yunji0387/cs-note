@@ -107,18 +107,42 @@
 <!-- MarkdownTOC -->
 
 ### Region 
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
 - **Description:** is a geographic area or location where a Cloud provider's infrastructure is clustered, and may have names like **NA South** or **US East**.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ### Availability Zones (AZ)
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
 - **Description:** Each cloud region can have multiple Zones and (data centers) have their own power, cooling, networking resources and may have names like **US-East-1** or **DAL-09**
 - **Benefits:**
   - Isolation of zones improves the cloud's fault tolerance, decreases latency, and more.
   - Very high bandwidth connectivity with other AZs, Data Centers and the internet.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ### Cloud Data Center
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
 - **Description:** is a huge room or a warehouse containing cloud infrastructure (pods and racks, or standardized containers of computing resources such as servers, storage and networking equipment)
 
+<!-- /MarkdownTOC -->
+</details>
+
 ### Computing Resources
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 - **Servers:**
   - Virtual Machines: Emulated computers based on physical servers.
@@ -147,9 +171,15 @@
   - **Enhanced Delivery:**
     - Cloud providers offer Content Delivery Networks (CDNs) for improved and accelerated web content delivery.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ---
 
 ### Virtualization and Virtual Machines
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 #### Introduction
 - **Presenter:** Kaleigh Bovey from the IBM Cloud team
@@ -200,9 +230,15 @@
 - Virtualization is central to cloud computing, offering numerous benefits in efficiency, cost savings, and agility.
 - **Next Topic Preview:** Discussion of various types of virtual machines in the following session.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ---
 
 ### Overview of Virtual Machines in Cloud Computing
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 #### Introduction
 - **Topic:** Various types and characteristics of Virtual Machines (VMs) in cloud environments.
@@ -247,9 +283,15 @@
 - VMs are fundamental components in cloud computing, offering versatility for a wide range of use cases.
 - They deliver various benefits, including cost efficiency, scalability, and strategic performance allocation.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ---
 
 ### Bare Metal Servers in Cloud Computing
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 #### Definition
 - **Bare Metal Server:** A single-tenant, dedicated physical server dedicated to a single customer.
@@ -291,9 +333,15 @@
 - **Bare Metal Servers:** Ideal for high-performance and security-centric applications.
 - **Virtual Servers:** Best for quick, scalable, and cost-effective solutions.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ---
 
 ### Secure Networking In Cloud
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 #### Introduction
 - The surge in **Cloud adoption** and **cybersecurity threats** necessitates robust Cloud network security.
@@ -325,9 +373,15 @@
 #### Conclusion
 - Constructing a Cloud Network involves creating logical structures providing functionalities similar to traditional data center networks, crucial for securing digital environments and ensuring efficient application performance.
 
+<!-- /MarkdownTOC -->
+</details>
+
 ---
 
 ### Containers
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
 
 #### Introduction
 
@@ -369,8 +423,10 @@
 - Containers facilitate cloud-native architectures, making development, deployment, and scaling more efficient and consistent.
 - They enable agile DevOps practices and continuous integration and delivery (CI/CD).
 
----
+<!-- /MarkdownTOC -->
+</details>
 
+---
 
 <!-- /MarkdownTOC -->
 </details>
