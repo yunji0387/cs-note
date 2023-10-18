@@ -4,6 +4,7 @@
 - [Service Models](#service_models)
 - [Deployment Models](#deployment_models)
 - [Cloud Infrastructure](#cloud_infrastructure)
+- [Cloud Storage and Content Delivery Networks](#storage_and_delivery_networks)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -427,6 +428,75 @@
 </details>
 
 ---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="storage_and_delivery_networks"></a>
+## Cloud Storage and Content Delivery Networks
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Basics of Storage on Cloud
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Introduction
+Cloud storage involves saving data to an off-site storage system maintained by a third party. It allows for scalability, flexibility, and accessibility, with pricing based on the storage used.
+
+## Types of Cloud Storage
+
+### Direct Attached Storage (DAS)
+- **Description**: Storage directly connected to a cloud server, often within the same physical enclosure.
+- **Characteristics**:
+  - High speed due to proximity.
+  - Primarily used for operating systems.
+  - Ephemeral, tied to the lifespan of its compute node.
+  - Not suitable for shared access across multiple systems.
+- **Limitations**: Less resilient to failures, not ideal for long-term storage.
+
+### File Storage (NFS)
+- **Description**: Network-attached storage offering shared access to files.
+- **Characteristics**:
+  - Data accessible over standard ethernet networks.
+  - Utilizes a familiar hierarchical structure.
+  - Can be mounted by multiple servers.
+- **Performance**: Slower than DAS and Block storage, cost-effective.
+
+### Block Storage
+- **Description**: High-speed, highly reliable storage suitable for databases and intensive applications.
+- **Characteristics**:
+  - Accessed through high-speed fibre connections.
+  - Provisioned in volumes and seen as individual hard drives by compute nodes.
+  - Supports a single compute node at a time.
+- **Performance**: Fast read/write capabilities. Associated term: 'IOPS' (Input/Output Operations Per Second).
+
+### Object Storage
+- **Description**: Accessed via API, suitable for a vast array of unstructured data.
+- **Characteristics**:
+  - Most affordable storage option.
+  - Infinite scalability from the user perspective.
+  - Data accessibility through direct calls to the object itself, not reliant on a compute node.
+- **Usage**: Ideal for documents, media, backups, application data, and more.
+- **Performance**: Slower read/write speeds compared to other storage types.
+
+## Considerations in Cloud Storage
+
+- **Persistence**: Refers to whether data remains stored even after its compute node is terminated. Persistent storage remains, whereas non-persistent (ephemeral) storage is deleted with its compute node.
+- **Snapshots**:
+  - Quick to create, recording only changes made after the previous snapshot.
+  - Ideal for reverting systems to a previous state.
+  - Not suitable for individual file recovery.
+
+## Conclusion
+Choosing the right type of cloud storage requires considering data accessibility, speed, resilience, and cost. Each storage type has its unique benefits suitable for specific use cases and applications.
+
+<!-- /MarkdownTOC -->
+</details>
 
 <!-- /MarkdownTOC -->
 </details>
