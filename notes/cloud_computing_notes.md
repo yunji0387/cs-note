@@ -368,9 +368,10 @@
 
 - Containers facilitate cloud-native architectures, making development, deployment, and scaling more efficient and consistent.
 - They enable agile DevOps practices and continuous integration and delivery (CI/CD).
-- Next topic will delve into cloud storage.
 
 ---
+
+
 
 <!-- /MarkdownTOC -->
 </details>
