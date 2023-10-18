@@ -293,7 +293,7 @@
 
 ---
 
-### Secure Cloud Networking Overview
+### Secure Networking In Cloud
 
 #### Introduction
 - The surge in **Cloud adoption** and **cybersecurity threats** necessitates robust Cloud network security.
@@ -324,6 +324,51 @@
 
 #### Conclusion
 - Constructing a Cloud Network involves creating logical structures providing functionalities similar to traditional data center networks, crucial for securing digital environments and ensuring efficient application performance.
+
+---
+
+### Containers
+
+#### Introduction
+
+- Containers package application code, libraries, and dependencies into a single unit to run consistently across environments.
+- They are lightweight compared to VMs, requiring no guest OS.
+
+#### History of Containerization
+
+- Originated in 2008 with Linux kernel introducing control groups (Cgroups).
+- Paved the way for Docker, Cloud Foundry, Rocket, etc.
+
+#### Containers vs. Virtual Machines (VMs)
+
+- VMs include the application, necessary binaries, libraries, and an entire guest OS for each instance, consuming substantial system resources.
+- Containers share the host OS and include only the app and its dependencies, making them more efficient.
+
+##### Problems with VMs:
+
+1. **Resource-Intensive**: Each instance of VM needs a full-blown OS, consuming significant system resources.
+2. **Scaling Issues**: Scaling requires duplicating the whole VM, further using up system resources.
+3. **Compatibility Issues**: Applications may run on a developer’s machine but face compatibility issues when transferred to a VM.
+
+#### Containerization Process
+
+- Starts with a manifest (e.g., Dockerfile).
+- Creation of an image (e.g., Docker image).
+- Deployment of the container.
+
+#### Advantages of Containerization
+
+1. **Efficiency**: Containers are lightweight and share the host’s OS kernel, avoiding the overhead of running entire OS instances.
+2. **Scalability**: Easier to scale out because of their smaller size.
+3. **Consistency across Environments**: Runs the same, regardless of where they are deployed.
+4. **Resource Distribution**: Unused resources by one container can be utilized by others, optimizing resource use.
+5. **Microservices**: Ideal for a microservices approach, allowing different services to be deployed, maintained, and scaled independently.
+
+#### Conclusion
+
+- Containers facilitate cloud-native architectures, making development, deployment, and scaling more efficient and consistent.
+- They enable agile DevOps practices and continuous integration and delivery (CI/CD).
+- Next topic will delve into cloud storage.
 
 ---
 
