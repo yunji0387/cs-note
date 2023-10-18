@@ -108,14 +108,44 @@
 
 ### Region 
 - **Description:** is a geographic area or location where a Cloud provider's infrastructure is clustered, and may have names like **NA South** or **US East**.
+
 #### Availability Zones (AZ)
 - **Description:** Each cloud region can have multiple Zones and (data centers) have their own power, cooling, networking resources and may have names like **US-East-1** or **DAL-09**
 - **Benefits:**
   - Isolation of zones improves the cloud's fault tolerance, decreases latency, and more.
   - Very high bandwidth connectivity with other AZs, Data Centers and the internet.
+
 #### Cloud Data Center
 - **Description:** is a huge room or a warehouse containing cloud infrastructure (pods and racks, or standardized containers of computing resources such as servers, storage and networking equipment)
 
+#### Computing Resources
+
+- **Servers:**
+  - Virtual Machines: Emulated computers based on physical servers.
+  - Bare Metal Servers: Physical servers without layers of virtualization.
+  - Serverless: On-demand computing execution with zero server management.
+
+- **Storage:**
+  - Associated with both virtual and physical servers.
+
+- **Networking:**
+  - **Infrastructure Components:**
+    - Routers and switches form the backbone of cloud networking.
+  
+  - **Advantages:**
+    - Simplified networking tasks including provisioning, configuration, and management.
+  
+  - **Configuration Essentials:**
+    - Requires setting up IP addresses and subnets.
+  
+  - **Security Configurations:**
+    - Vital to manage access to resources via security groups, ACLs, VLANs, VPCs, and VPNs.
+  
+  - **Virtualized Networking Hardware:**
+    - Appliances like firewalls, load balancers, gateways, and traffic analyzers are available as virtual services.
+  
+  - **Enhanced Delivery:**
+    - Cloud providers offer Content Delivery Networks (CDNs) for improved and accelerated web content delivery.
 
 <!-- /MarkdownTOC -->
 </details>
