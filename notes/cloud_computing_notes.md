@@ -87,6 +87,13 @@
   - Cost management.
   - Enhanced performance.
 
+### Community Cloud
+- **Description:** A cloud infrastructure shared by several organizations with common concerns, ensuring security, compliance, and policy requirements. It can be managed by the organizations or a third party and can exist on or off-premises.
+- **Why Use Community Cloud?:** Provides a secure, shared environment for organizations with common goals or tasks. Offers the same set of security controls and supports data localization requirements.
+- **Modern Approach - Software-Defined Community Cloud:** Google Cloud's software-defined community cloud separates shared projects from others, providing enhanced security and compliance without physical infrastructure limitations. It enables faster access to new services and security enhancements, ensuring improved efficiency and performance.
+- **Benefits:** Meets specific community security and compliance requirements, allows quicker onboarding of new technologies, and enhances availability and efficiency due to scalable infrastructure.
+
+
 <!-- /MarkdownTOC -->
 </details>
 
