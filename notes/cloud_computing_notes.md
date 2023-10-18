@@ -147,6 +147,61 @@
   - **Enhanced Delivery:**
     - Cloud providers offer Content Delivery Networks (CDNs) for improved and accelerated web content delivery.
 
+---
+
+#### Virtualization and Virtual Machines
+
+##### Introduction
+- **Presenter:** Kaleigh Bovey from the IBM Cloud team
+- **Topic:** Overview of virtualization in the context of cloud computing
+
+##### What is Virtualization?
+- **Definition:** The creation of a virtual (rather than actual) version of something, such as compute resources, storage, networking, servers, or applications.
+- **Key Component:** Hypervisor
+
+##### Hypervisors
+- **Function:** Allows multiple operating systems to share a single hardware host.
+
+##### Types of Hypervisors
+1. **Type 1 Hypervisor**
+   - Directly installed on physical server hardware.
+   - Also known as a "bare-metal hypervisor."
+   - Examples: VMware ESXi, Microsoft Hyper-V, KVM.
+   - Characteristics: High security, lower latency, commonly used in enterprise environments.
+
+2. **Type 2 Hypervisor**
+   - Installed on a host operating system.
+   - Also known as "hosted hypervisor."
+   - Examples: Oracle VirtualBox, VMware Workstation.
+   - Characteristics: Higher latency, commonly used for end-user virtualization.
+
+##### Virtual Machines (VMs)
+- **Definition:** Software-based emulations of a computer system.
+- **Features:**
+  - Contains an operating system and applications.
+  - Independent from one another.
+  - Can run multiple instances on a single hypervisor.
+  - Supports various operating systems (e.g., Windows, Linux, UNIX).
+  - High portability.
+
+##### Key Benefits of Virtualization
+1. **Cost Savings:**
+   - Reduces the need for physical infrastructure.
+   - Saves on electricity, maintenance, and server costs.
+
+2. **Agility and Speed:**
+   - Quick to create and deploy VMs.
+   - Simplifies processes such as dev-test scenarios.
+
+3. **Reduced Downtime:**
+   - VMs can be quickly moved to another hypervisor if a host fails, ensuring a reliable backup plan and continuous system operation.
+
+##### Conclusion
+- Virtualization is central to cloud computing, offering numerous benefits in efficiency, cost savings, and agility.
+- **Next Topic Preview:** Discussion of various types of virtual machines in the following session.
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
