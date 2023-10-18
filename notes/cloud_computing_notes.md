@@ -498,6 +498,65 @@ Choosing the right type of cloud storage requires considering data accessibility
 <!-- /MarkdownTOC -->
 </details>
 
+---
+
+### File Storage
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Detailed Overview of File Storage
+
+## Characteristics of File Storage
+
+- **Attachment**: Requires connection to a compute node for access and operation, similar to direct attached storage.
+- **Cost and Maintenance**: Generally more cost-effective and resilient compared to direct attached storage, requiring less user intervention for disk management and maintenance.
+- **Capacity**: Allows for provisioning of large storage quantities, presented as disks to servers.
+- **Storage Appliances**: 
+  - Disks are housed in specialized hardware separate from compute nodes.
+  - High resilience and enhanced data security, with features like in-transit encryption.
+  - Fully managed by service providers.
+
+## Connectivity and Performance
+
+- **Networking**:
+  - Utilizes ethernet networks, often dedicated, for connecting storage to compute nodes.
+  - Commonly known as 'Network Attached Storage' (NAS) or 'Network File Storage' (NFS).
+- **Performance Variability**: 
+  - Speed can fluctuate based on network load, impacting bandwidth.
+  - Not suited for tasks requiring consistently high network speeds due to potential latency.
+
+## Use Cases and Workload Suitability
+
+- **Multi-Access Capability**: Can be mounted on multiple compute nodes simultaneously, appearing as an ordinary drive.
+- **Ideal Applications**: 
+  - Common/shared storage areas (e.g., departmental file shares, application processing zones, web service file repositories).
+  - Contexts where network speed variability is non-critical.
+- **Other Uses**: 
+  - Viable for databases or other applications when budget constraints exist, with a trade-off in speed.
+
+## IOPS Considerations in File Storage
+
+- **Definition**: 'Input/Output Operations Per Second' - indicates the speed of data writing and reading on the disks (independent of network speed).
+- **Cost Implication**: Higher IOPS usually implies increased expenses.
+- **Significance**: 
+  - Critical in matching storage performance with application demands.
+  - Mismatched IOPS (too low) can slow down applications, whereas unnecessarily high IOPS may lead to overpayment.
+
+## Example Scenario
+
+- Scenario: A shared file storage used by 30 compute nodes, with an application performing 60 data operations per minute.
+- Calculation: This equates to roughly 1 operation per second, illustrating the varying IOPS demands of different applications.
+
+## Conclusion
+
+Understanding the specifics of File Storage, including its connectivity, performance, and appropriate use cases, is crucial in leveraging its capabilities effectively. IOPS, a key performance metric, requires careful consideration to balance costs and maintain application efficiency.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
