@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Service Models](#service_models)
 - [Deployment Models](#deployment_models)
+- [Cloud Infrastructure](#cloud_infrastructure)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -92,6 +93,28 @@
 - **Why Use Community Cloud?:** Provides a secure, shared environment for organizations with common goals or tasks. Offers the same set of security controls and supports data localization requirements.
 - **Modern Approach - Software-Defined Community Cloud:** Google Cloud's software-defined community cloud separates shared projects from others, providing enhanced security and compliance without physical infrastructure limitations. It enables faster access to new services and security enhancements, ensuring improved efficiency and performance.
 - **Benefits:** Meets specific community security and compliance requirements, allows quicker onboarding of new technologies, and enhances availability and efficiency due to scalable infrastructure.
+
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="cloud_infrastructure"></a>
+## Cloud Infrastructure
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Region 
+- **Description:** is a geographic area or location where a Cloud provider's infrastructure is clustered, and may have names like **NA South** or **US East**.
+#### Availability Zones (AZ)
+- **Description:** Each cloud region can have multiple Zones and (data centers) have their own power, cooling, networking resources and may have names like **US-East-1** or **DAL-09**
+- **Benefits:**
+  - Isolation of zones improves the cloud's fault tolerance, decreases latency, and more.
+  - Very high bandwidth connectivity with other AZs, Data Centers and the internet.
+#### Cloud Data Center
+- **Description:** is a huge room or a warehouse containing cloud infrastructure (pods and racks, or standardized containers of computing resources such as servers, storage and networking equipment)
 
 
 <!-- /MarkdownTOC -->
