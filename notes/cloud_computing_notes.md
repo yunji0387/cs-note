@@ -109,16 +109,16 @@
 ### Region 
 - **Description:** is a geographic area or location where a Cloud provider's infrastructure is clustered, and may have names like **NA South** or **US East**.
 
-#### Availability Zones (AZ)
+### Availability Zones (AZ)
 - **Description:** Each cloud region can have multiple Zones and (data centers) have their own power, cooling, networking resources and may have names like **US-East-1** or **DAL-09**
 - **Benefits:**
   - Isolation of zones improves the cloud's fault tolerance, decreases latency, and more.
   - Very high bandwidth connectivity with other AZs, Data Centers and the internet.
 
-#### Cloud Data Center
+### Cloud Data Center
 - **Description:** is a huge room or a warehouse containing cloud infrastructure (pods and racks, or standardized containers of computing resources such as servers, storage and networking equipment)
 
-#### Computing Resources
+### Computing Resources
 
 - **Servers:**
   - Virtual Machines: Emulated computers based on physical servers.
@@ -149,20 +149,20 @@
 
 ---
 
-#### Virtualization and Virtual Machines
+### Virtualization and Virtual Machines
 
-##### Introduction
+#### Introduction
 - **Presenter:** Kaleigh Bovey from the IBM Cloud team
 - **Topic:** Overview of virtualization in the context of cloud computing
 
-##### What is Virtualization?
+#### What is Virtualization?
 - **Definition:** The creation of a virtual (rather than actual) version of something, such as compute resources, storage, networking, servers, or applications.
 - **Key Component:** Hypervisor
 
-##### Hypervisors
+#### Hypervisors
 - **Function:** Allows multiple operating systems to share a single hardware host.
 
-##### Types of Hypervisors
+#### Types of Hypervisors
 1. **Type 1 Hypervisor**
    - Directly installed on physical server hardware.
    - Also known as a "bare-metal hypervisor."
@@ -175,7 +175,7 @@
    - Examples: Oracle VirtualBox, VMware Workstation.
    - Characteristics: Higher latency, commonly used for end-user virtualization.
 
-##### Virtual Machines (VMs)
+#### Virtual Machines (VMs)
 - **Definition:** Software-based emulations of a computer system.
 - **Features:**
   - Contains an operating system and applications.
@@ -184,7 +184,7 @@
   - Supports various operating systems (e.g., Windows, Linux, UNIX).
   - High portability.
 
-##### Key Benefits of Virtualization
+#### Key Benefits of Virtualization
 1. **Cost Savings:**
    - Reduces the need for physical infrastructure.
    - Saves on electricity, maintenance, and server costs.
@@ -196,7 +196,7 @@
 3. **Reduced Downtime:**
    - VMs can be quickly moved to another hypervisor if a host fails, ensuring a reliable backup plan and continuous system operation.
 
-##### Conclusion
+#### Conclusion
 - Virtualization is central to cloud computing, offering numerous benefits in efficiency, cost savings, and agility.
 - **Next Topic Preview:** Discussion of various types of virtual machines in the following session.
 
@@ -370,7 +370,6 @@
 - They enable agile DevOps practices and continuous integration and delivery (CI/CD).
 
 ---
-
 
 
 <!-- /MarkdownTOC -->
