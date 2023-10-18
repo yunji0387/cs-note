@@ -9,6 +9,7 @@
 6. [Sorting & Searching](#sort_search)
 7. [Algorithms](#algorithm)
 8. [Cloud Computing](./notes/cloud_computing_notes.md)
+9. [DevOps](./notes/devops_notes.md)
    
 ---
 
