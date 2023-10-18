@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Service Models](#service_models)
+- [Deployment Models](#deployment_models)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -40,6 +41,51 @@
   - Improved scalability and flexibility.
   - Only pay for what you use, helping to reduce costs.
   - Control over the infrastructure without the physical maintenance of hardware.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="deployment_models"></a>
+## Deployment Models
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+
+<!-- MarkdownTOC -->
+
+### Public Cloud
+- **Description:** Computing services offered by third-party providers over the public Internet, making them available to anyone who wants to use or purchase them.
+- **Characteristics:**
+  - Services available to multiple clients using shared infrastructure.
+  - Scalable, on-demand resources.
+- **Use Cases:** Web-based email, online office applications, storage.
+- **Benefits:**
+  - Reduced costs and maintenance.
+  - High reliability.
+  - Scalability.
+
+### Private Cloud
+- **Description:** Computing resources used exclusively by one business or organization. The private cloud can be physically located at your organization's on-site datacenter or hosted by a third-party service provider.
+- **Characteristics:**
+  - Exclusive resource use, often on-premises.
+  - Enhanced security controls.
+- **Use Cases:** Companies with strict data, regulatory, and governance requirements.
+- **Benefits:**
+  - Increased security and privacy.
+  - Customization.
+  - Consistent performance.
+
+### Hybrid Cloud
+- **Description:** A mix of public and private cloud environments, with orchestration between the two. Businesses can run mission-critical workloads or sensitive applications on the private cloud while using the public cloud for workloads that must scale on-demand.
+- **Characteristics:**
+  - Combination of private and public cloud resources.
+  - Flexibility and scalability.
+- **Use Cases:** Businesses with variable workloads and data processing needs.
+- **Benefits:**
+  - Versatility.
+  - Cost management.
+  - Enhanced performance.
 
 <!-- /MarkdownTOC -->
 </details>
