@@ -557,6 +557,91 @@ Understanding the specifics of File Storage, including its connectivity, perform
 
 ---
 
+### Block Storage
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Understanding Block Storage and Its Comparison with File Storage
+
+Presenter: Amy Blea, IBM Cloud
+
+## Introduction to Block Storage
+
+- **Functionality**: Stores data in separate chunks or 'blocks', each with a unique address.
+- **Accessibility**: Must be attached to a compute node to be functional, akin to direct attached storage and file storage.
+- **Security and Resilience**: 
+  - Mounted from remote storage appliances, offering high failure resilience.
+  - Ensures data security through services like encryption during transit and while at rest.
+
+## Connectivity and Performance of Block Storage
+
+- **Network**: Utilizes a dedicated fiber optic network, enabling signal travel at light speed.
+- **Cost and Efficiency**: 
+  - More expensive due to high-speed fiber network construction, reflecting a higher price point.
+  - Ideal for low-latency, high-performance workloads due to speed and consistency.
+
+## Workloads and Suitability
+
+- **Exclusive Access**: Typically mounted to a single compute node, unlike file storage that supports multiple nodes.
+- **Ideal Workloads**: 
+  - Perfect for consistent, high-speed storage demands (e.g., databases, mail servers).
+  - Not suitable for scenarios requiring shared disk access among nodes.
+
+## Understanding IOPS in Block Storage
+
+- **IOPS Specification**: Cloud providers often allow IOPS characteristics specification during storage provisioning, adjustable according to application demands and behavior changes.
+
+## Comparing Block and File Storage
+
+- **Common Features**:
+  - Both sourced from appliances managed by service providers.
+  - High availability, resilience, and data encryption features.
+- **Connectivity Differences**:
+  - File storage uses ethernet (also called Network Attached or NFS Storage), susceptible to speed variability.
+  - Block storage employs a consistent, high-speed fiber network.
+- **Access Flexibility**:
+  - File storage supports multiple compute node attachments simultaneously.
+  - Block storage restricts attachment to one node at a time.
+- **Use Case Based Selection**:
+  - File storage: Preferred for non-speed-sensitive workloads, cost concerns, or necessary file sharing.
+  - Block storage: Chosen for applications demanding fast, consistent disk access (e.g., databases).
+
+## Deep Dive into Traditional Storage Types with IBM Cloud
+
+- **Block Storage Overview**: 
+  - Accessed by servers through a Storage Area Network (SAN).
+  - Offers the lowest latency for applications, suitable for high-performance tasks.
+  - Generally features high redundancy across volumes for data safety.
+
+- **File Storage Specifics**:
+  - Connects through a common network, supporting multiple server access.
+  - Ideal for scalable situations with multiple file shares.
+  - Allows multiple simultaneous reads/writes without data overwrite concerns.
+
+- **Choosing Between Block and File Storage**:
+  - **Block Storage is ideal for**:
+    - Boot volumes for configurations like VMware.
+    - Low latency and high-performance tasks (e.g., transactional/relational databases).
+  - **File Storage is perfect for**:
+    - Environments with mixed data types (e.g., web hosting servers).
+    - Collaborative spaces needing concurrent access and operations.
+
+- **Relevance**: Despite being traditional, both storage types maintain significant relevance due to their distinctive benefits for various workloads, whether on-premise or cloud-based.
+
+## Conclusion and Further Discussion
+
+- Both block and file storage continue to play critical roles in diverse workload management, each with unique strengths.
+- Future topics will explore newer, cutting-edge storage solutions, including Object Storage.
+
+**Feedback and Engagement**: Viewers are encouraged to comment, provide feedback, suggest topics, and subscribe for more insightful content.
+
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
