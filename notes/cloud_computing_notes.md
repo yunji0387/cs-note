@@ -703,6 +703,60 @@ Presenter: Amy Blea, IBM Cloud
 
 ---
 
+## CDN - Content Delivery Networks
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Understanding Content Delivery Networks (CDNs)
+
+## Overview
+
+- **Definition**: A CDN is a distributed server network that accelerates internet content delivery by caching website content, utilizing servers closest to the user's location.
+
+## How CDNs Enhance Content Delivery
+
+- **Global User Base**: Websites often have a global audience but may not have servers located worldwide, potentially slowing down content delivery due to the distances involved.
+
+### The Problem of Distance
+
+- **User Experience**: The further a user is from the server, the longer the content delivery time, leading to a slower website experience.
+  - Sydney to Dallas: ~170 ms
+  - London to Dallas: ~100 ms
+  - New York to Dallas: ~40 ms
+  - Los Angeles to Dallas: ~30 ms
+
+### CDN Mechanism
+
+- **Proximity-Based Content Delivery**: CDNs store content on multiple servers worldwide, allowing users to retrieve website data from the closest server, ensuring faster access.
+- **Traffic Management**: Instead of all user requests hitting the main server, they are distributed across various geographic locations. This process significantly reduces the load on the original server.
+
+## Benefits of Using a CDN
+
+### Speed and Accessibility
+
+- **Reduced Latency**: By shortening the physical distance between the user and the server, CDNs drastically cut down the data transfer time, making websites faster.
+- **Global Reach**: Regardless of where the users are, they can access the content quickly due to the dispersed nature of CDN servers.
+
+### Scalability and Reliability
+
+- **Handling Traffic Peaks**: By spreading user requests across multiple servers, CDNs prevent overload on any single server, especially during traffic surges.
+- **Increased Uptime**: Less strain on the primary server means potentially higher uptime and consistent availability.
+
+### Security
+
+- **Security Through Obscurity**: With the CDN acting as an intermediary between the user and the original server, there's an added layer of protection against direct attacks.
+- **Reduced Direct Traffic**: Fewer direct requests and interactions with the main server offer a degree of protective obscurity.
+
+## Summary
+
+CDNs enhance website performance by distributing the service spatially relative to end-users. This mechanism provides high availability and performance by replicating the content from the original server and delivering it quickly and efficiently to users worldwide. Moreover, the use of a CDN can also lead to indirect benefits such as improved security, reduced server load, and potentially increased uptime due to minimized direct interactions between users and the primary server.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
