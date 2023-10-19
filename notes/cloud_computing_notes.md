@@ -629,13 +629,74 @@ Presenter: Amy Blea, IBM Cloud
 
 - **Relevance**: Despite being traditional, both storage types maintain significant relevance due to their distinctive benefits for various workloads, whether on-premise or cloud-based.
 
-## Conclusion and Further Discussion
+## Conclusion
 
 - Both block and file storage continue to play critical roles in diverse workload management, each with unique strengths.
-- Future topics will explore newer, cutting-edge storage solutions, including Object Storage.
 
-**Feedback and Engagement**: Viewers are encouraged to comment, provide feedback, suggest topics, and subscribe for more insightful content.
+<!-- /MarkdownTOC -->
+</details>
 
+---
+
+## Object Storage
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Introduction
+- Object storage is an adaptable, API-accessible storage solution, differing from traditional file and block storage systems.
+
+## Key Features
+
+### Accessibility
+- **API-based Interaction**: Manages data through application programming interfaces (APIs), not dependent on a direct connection to a compute node.
+
+### Cost-Efficiency
+- **Lower Costs**: Generally cheaper than other cloud storage, charging per gigabyte of storage used.
+
+### Scalability
+- **Infinite Storage**: No pre-set storage limit; costs are based on actual usage.
+
+## Use Case
+- Perfect for large quantities of unstructured data, where no specific structure or hierarchy is necessary.
+
+## Structural Aspects
+
+### Buckets
+- Objects are stored within 'buckets' along with unique metadata for identification and management.
+
+### Resilience & Availability
+- Ensured by service providers, with multiple storage options based on user needs and data sensitivity.
+
+## Limitations
+- Not suitable for dynamic file operations or high-speed access requirements.
+
+## Advanced Insights
+
+### Storage Tiers
+- **Standard Tier**: For frequently accessed data, highest cost.
+- **Vault/Archive Tier**: Less frequently accessed data, moderately reduced cost.
+- **Cold Vault Tier**: Rarely accessed data, significantly lower cost.
+- **Automatic Archiving**: Possible setup for data movement to cheaper tiers based on access frequency, using object metadata.
+
+### Performance
+- **Speed**: Generally slower compared to file/block storage, with retrieval times ranging from seconds to hours, particularly for cold storage data.
+
+### Costs
+- Additional charges may apply for data retrieval, especially from colder storage tiers.
+
+### API Access
+- **Common API**: S3, widely used due to its compatibility across various providers, enabling standardized access and management functions.
+- **Functionality**: APIs allow for comprehensive management, including uploading and downloading data.
+
+### Integration and Backup Solutions
+- Object storage supports existing applications and is an efficient solution for backup and disaster recovery.
+- It serves as a superior alternative to physical tape backups, offering geographical redundancy without manual intervention.
+
+## Summary
+- Object storage, offering various tiers and access methods, is a cost-effective, scalable solution for static data storage.
+- Its API compatibility, particularly with the S3 standard, makes it a versatile option across different platforms and applications.
+- Despite its slower performance for data retrieval, it stands out for backup and disaster recovery use cases due to its cost-efficiency and ease of management.
 
 <!-- /MarkdownTOC -->
 </details>
