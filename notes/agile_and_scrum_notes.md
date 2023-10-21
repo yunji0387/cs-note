@@ -1150,7 +1150,40 @@ Each team member answers three critical questions:
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Sprint Review Essentials
+
+## What is a Sprint Review?
+- A **Sprint Review** is held at the end of the Sprint to showcase the work completed.
+- It involves a live demonstration of new features or products developed during the Sprint.
+- The main aim is to receive feedback and determine whether the work meets the acceptance criteria.
+
+## Participants in a Sprint Review
+- **Product Owner**: Confirms if the deliverables meet the desired criteria.
+- **Scrum Master**: Facilitates the meeting.
+- **Development Team**: Presents the work they've accomplished.
+- **Stakeholders/Clients**: Provide feedback that could influence future developments.
+- Essentially, anyone invested in the project can attend.
+
+## Conducting a Sprint Review
+1. **Demonstration**: The team presents what they have developed.
+2. **Feedback Collection**: Stakeholders give feedback, and discussions about the product ensue.
+3. **Backlog Adjustment**: Feedback may result in new stories or adjustments to the product backlog.
+4. **Story Acceptance**: Accepted stories are moved from 'Done' to 'Closed', confirming their completion.
+
+## Dealing with Rejected Stories
+- Stories not meeting the acceptance criteria are labelled (e.g., 'unfinished' or 'inaccurate') and closed to avoid affecting the team’s velocity.
+- A new story is created with more accurate criteria for the upcoming Sprint.
+- This approach ensures the team's velocity reflects the actual work done, even if the output wasn't as expected.
+
+## Iterative Development and Feedback
+- Sprint Reviews exemplify iterative development, allowing for adjustments based on stakeholder feedback.
+- This process can lead to innovations and improvements that wouldn't emerge in a traditional Waterfall model.
+- Rejected work still accounts for effort and time; hence, closing these stories and writing new ones prevent velocity distortion.
+
+## Summary of Learnings
+- A Sprint Review is a collaborative effort involving demonstrations, feedback, and direct stakeholder engagement.
+- This meeting allows for course corrections and enhancements, driving continuous improvement in the development process.
+- Proper handling of rejected stories ensures accurate velocity tracking and reflects the team's true progress.
 
 <!-- /MarkdownTOC -->
 </details>
