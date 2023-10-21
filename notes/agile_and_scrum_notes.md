@@ -5,6 +5,7 @@
 - [Scrum Methodology](#scrum_methodology)
 - [Organizing for Success](#organizing_for_success)
 - [Planning to be Agile](#planning_to_be_agile)
+- [User Stories](#user_stories)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -634,6 +635,92 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 
 ---
 
+<a id="user_stories"></a>
+## User Stories
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Creating Good User Stories
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Summary: Effective User Stories and Use of Epics in Agile
+
+## User Story Fundamentals
+
+- **Definition**: A user story is a small, concise statement representing a requirement described from the user's perspective, focusing on the value or result they seek.
+- **Composition**: User stories traditionally follow a simple template:
+  - "As a (type of user), I want (an action) so that (benefit/value)."
+- **Business Value**: Essential to highlight why the need exists and the benefits that fulfilling it will provide.
+
+### Key Components of a Good User Story
+
+1. **Description of Business Value**: Clarifying the importance and benefits of the user story.
+2. **Assumptions & Details**: Providing necessary context or specific conditions that developers need to consider.
+3. **Acceptance Criteria/Definition of Done**: Establishing clear, testable conditions that must be met for the user story to be considered complete.
+
+## INVEST Criterion for Robust User Stories
+
+- **Independent**: The story should stand alone and be deliverable without depending on others.
+- **Negotiable**: Details can be discussed and redefined by team members and stakeholders.
+- **Valuable**: Provides value to the customer or stakeholder.
+- **Estimable**: Clear enough for developers to estimate the effort needed.
+- **Small**: Concise enough to be achievable within a single sprint.
+- **Testable**: Defined so that it's clear when the story is 'done'.
+
+## Acceptance Criteria with Gherkin Syntax
+
+- Utilizes a structured format to specify conditions for passing tests:
+  - "Given [context], when [action], then [outcome]."
+- Ensures all stakeholders have a clear understanding of expected outcomes.
+
+## Epics in Agile Framework
+
+- **Definition**: Epics are large-scale work items, encompassing various smaller user stories.
+- **Usage**: Employed when ideas or tasks are too vast for a single sprint, requiring breakdown into more digestible, executable chunks.
+- **Backlog Management**: Epics often start as large, undefined ideas and get broken down into smaller user stories during backlog refinement.
+
+## Conclusion
+
+- User stories represent actionable, value-driven requirements that are comprehensible by both technical teams and stakeholders.
+- They should adhere to the INVEST criteria and have well-defined acceptance criteria.
+- Larger initiatives are managed through Epics, which are subsequently decomposed into smaller user stories for execution within sprints.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Effectively using Story Points
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Building the Product Backlog
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
 
 <a id="resources"></a>
 ## Resources
