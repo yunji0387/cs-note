@@ -218,18 +218,133 @@ Adopting Agile practices such as working in small batches, developing MVPs, and 
 
 ---
 
-### The Roles of Scrum
+### The 3 Roles of Scrum
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Scrum Roles Summary
+
+## Overview
+Scrum framework involves three pivotal roles:
+1. **Product Owner**
+2. **Scrum Master**
+3. **Scrum Team**
+
+---
+
+## 1. Product Owner
+- **Key liaison** between stakeholders and the Scrum team.
+- **Articulates product vision**, ensuring the team understands the directions and goals.
+- **Decides on requirement priorities**, controls the product backlog, and adjusts expectations.
+- **Authority to accept or reject work results** based on whether the increments meet the requirements and vision.
+
+### Responsibilities
+- Represents stakeholders' interests and needs.
+- Holds the decision power on continuing or adjusting development paths.
+- Ensures the product backlog is refined and ready for sprints.
+
+---
+
+## 2. Scrum Master
+- **Facilitates and enforces Scrum processes** and ensures the team follows the agreed-upon rules.
+- Acts as a **shield** for the team from external distractions and interferences.
+- **Resolves impediments** and focuses on creating a productive work environment.
+- **Enforces timeboxes** for various Scrum events to keep the team within schedule.
+- **No direct management authority** over the team, acting more as a servant leader and coach.
+
+### Responsibilities
+- Coaches the team and helps them to uphold Scrum values.
+- Collects empirical data for progress tracking and potential forecast adjustments.
+- Encourages a self-organizing and autonomous team environment.
+
+---
+
+## 3. Scrum Team
+- **Cross-functional** group involving various roles (developers, testers, business analysts, etc.).
+- **Self-organizing and self-managing** with members assigning work to themselves.
+- Ideally, teams are small (often recommended as seven plus or minus two) and **co-located**.
+
+### Characteristics
+- Members work full-time on the team, dedicated to one project at a time.
+- The team commits to work incrementally, one sprint at a time.
+- High autonomy in deciding how to meet sprint goals.
+
+### Best Practices
+- Co-located teams or at least members being in the same geographical/time zone for better collaboration.
+- Long-term dedication to projects, without members being shuffled around.
+
+---
+
+## Conclusion
+In Scrum, the **Product Owner** is the vision setter, the **Scrum Master** is the facilitator, and the **Scrum Team** is the executor. Each role complements the others, driving collaborative and efficient project progress. The key to success includes clear communication, understanding of roles, and adherence to the Scrum principles and guidelines.
 
 <!-- /MarkdownTOC -->
 </details>
 
 ---
 
+### Artifacts, Events, and Benefits
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Scrum Overview
+
+## Artifacts of Scrum
+
+1. **Product Backlog**
+   - A comprehensive list of user stories and requirements for the product that are yet to be completed.
+   - May include various backlogs (icebox, release backlog) generally referred to as the product backlog.
+
+2. **Sprint Backlog**
+   - User stories selected for completion in the upcoming sprint (typically two weeks).
+
+3. **Done Increment**
+   - The product increment completed at the end of a sprint.
+
+## Scrum Events
+
+1. **Sprint Planning Meeting**
+   - Attendance: Product Owner, Scrum Master, and Development Team.
+   - Purpose: Plan the work for the upcoming sprint.
+
+2. **Daily Scrum / Stand-up**
+   - A daily meeting for status updates and impediment removal.
+
+3. **Sprint**
+   - The time-boxed period (usually two weeks) where the team works to complete the selected work.
+
+4. **Sprint Review**
+   - A meeting where the team demonstrates the new features to stakeholders.
+
+5. **Sprint Retrospective**
+   - The team reflects on the past sprint and plans improvements for the next one.
+
+## Benefits of Using Scrum
+
+- Higher productivity through daily meetings and visibility (via tools like a Kanban board).
+- Improved quality via engaged teams and practices like TDD (Test Driven Development).
+- Reduced time-to-market due to incremental delivery.
+- Increased stakeholder satisfaction through frequent progress visibility.
+- Enhanced team dynamics and happiness due to transparency and shared responsibilities.
+
+## Scrum vs. Kanban
+
+- **Cadence**: Scrum has fixed-length sprints, while Kanban is a continuous flow.
+- **Release Methodology**: Scrum releases at the end of each sprint, whereas Kanban follows a continuous delivery model.
+- **Roles**: Scrum assigns specific roles (Product Owner, Scrum Master, Development Team); Kanban doesn’t prescribe specific roles.
+- **Key Metrics**: Scrum measures velocity; Kanban focuses on cycle time.
+- **Change Philosophy**: Scrum limits changes during sprints, while Kanban accommodates changes at any time.
+
+## Conclusion
+
+Scrum, with its structured approach and specific roles and rituals, promotes a productive and collaborative environment that enhances product quality, reduces delivery time, and increases stakeholder satisfaction.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
 
 <!-- /MarkdownTOC -->
 </details>
