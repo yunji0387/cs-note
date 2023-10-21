@@ -912,7 +912,54 @@ Backlog refinement is a critical process in sprint planning, helping teams prior
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Sprint Planning Summary
+
+## Overview
+- **Sprint Planning**: A core component of the Scrum process where the team determines the work they will complete in the upcoming sprint, transforming selected items from the Product Backlog into the Sprint Backlog.
+
+## Key Roles
+- **Attendees**:
+  - Product Owner
+  - Scrum Master
+  - Development Team (software engineers, testers, operations, business analysts, etc.)
+
+## Sprint Goals
+- Every sprint should have a **clearly articulated goal**, communicated by the Product Owner.
+- Helps the team stay focused and understand the purpose behind each User Story.
+
+## Sprint Planning Meeting
+- **Duration**: Typically two weeks (varies depending on the team's preference).
+- **Purpose**:
+  - Assess and select User Stories for the Sprint Backlog.
+  - Assign and agree on story points for each story.
+  - Ensure all stories are adequately understood and prepared for development.
+- **Velocity**:
+  - The number of story points the team can handle in one sprint.
+  - Unique to each team and not comparable across different teams.
+
+## Mechanics
+- Moving stories from the Product Backlog to the Sprint Backlog.
+- Assigning story points (sometimes using planning poker for consensus).
+- Ensuring stories are adequately detailed and ready for execution.
+- Respecting the team's velocity by not overcommitting.
+
+## Using Tools like ZenHub/GitHub
+- Creation of **milestones** (or "sprints" in ZenHub) representing each sprint.
+- Milestones include:
+  - Title (e.g., "Sprint 1: Deploy to Cloud")
+  - Description (reflecting the sprint goal)
+  - Duration (start and end dates)
+- Assigning stories to the sprint/milestone, estimating story points, and tracking them in the tool.
+
+## Building the Sprint Backlog
+- Detailed review of each story in the Product Backlog.
+- Team discussion to agree on the size and effort (assigning story points).
+- Continuous process until the Sprint Backlog reflects the team's capacity (velocity).
+
+## Key Takeaways
+- **Sprint Goal**: Set by the Product Owner, guiding the team's focus.
+- **Sprint Plan**: Created by the Development Team, filling the Sprint Backlog based on team's velocity.
+- **Velocity**: A measure of the team’s capacity, guiding how many stories are committed to in a sprint.
 
 <!-- /MarkdownTOC -->
 </details>
