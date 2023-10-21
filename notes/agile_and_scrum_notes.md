@@ -1347,7 +1347,40 @@ Each team member answers three critical questions:
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Summary: Scrum Best Practices and Anti-Patterns
+
+## Key Takeaways
+After watching this video, you'll be able to:
+- Identify common anti-patterns in scrum teams.
+- Understand the checklist for a healthy scrum team.
+
+## Agile Anti-Patterns
+
+1. **No Real Product Owner**: The absence of a dedicated visionary leads to a lack of direction and focus.
+2. **Multiple Product Owners**: Causes confusion and conflicting directions.
+3. **Oversized Teams**: Teams larger than 10 people hinder communication and collaboration.
+4. **Teams Not Dedicated**: Team members working on multiple projects lead to distractions and reduced productivity.
+5. **Geographically Dispersed Teams**: Teams spread across time zones face collaboration challenges.
+6. **Siloed Teams**: Cross-functional collaboration is crucial; dependencies between teams reduce efficiency.
+7. **Teams Not Self-Managing**: Teams should pull stories from the backlog themselves, emphasizing autonomy.
+
+## Scrum Health Check
+
+- **Accountability**: Everyone understands their roles and feels ownership of their work.
+- **Small Sprints**: Preferably 1-2 weeks to ensure agility and rapid feedback.
+- **Ordered Product Backlog**: Clear, prioritized, and detailed enough for team members to pick up.
+- **Sprint Backlog Existence**: Visual representation of remaining work.
+- **Sprint Planning and Forecasting**: Organized around a clear goal with an established backlog.
+- **Daily Scrum Results in Replanning**: Flexibility to adjust the plan based on daily progress.
+- **Deliverable Results at Sprint's End**: Functional increment ready for review, ensuring tangible progress.
+- **Active Stakeholder Feedback**: Regular input to inform product adjustments.
+- **Updated Product Backlog Post-Review**: New stories or changes in plan are updated in the backlog.
+- **Alignment on Work-In-Progress**: Everyone is on the same page for the upcoming sprint.
+- **Retrospective for Continuous Improvement**: Honest reflection on what's working and what's not.
+
+## Conclusion
+
+Avoiding scrum anti-patterns and adhering to the health check guidelines ensures a more productive and focused team, leading to successful sprint deliveries.
 
 <!-- /MarkdownTOC -->
 </details>
