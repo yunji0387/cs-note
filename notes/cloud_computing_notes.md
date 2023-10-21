@@ -1029,7 +1029,65 @@ Exploring DevOps applications across various cloud services underscores its tran
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Application Modernization: Architectural, Infrastructural, and Development Transformations
+
+Speaker: Eric Minick (IBM Cloud)
+
+## Overview
+
+Application Modernization is pivotal in today's digital transformation journey, significantly impacting how organizations revamp their existing application portfolio. This modernization is not just a trend but a necessary transition, encompassing three intertwined areas:
+
+1. Architectural Evolution
+2. Infrastructure Enhancement
+3. Development Process Reformation
+
+## Historical Context
+
+### Past Trends
+
+- Monolithic applications
+- Physical servers
+- Waterfall development methodologies
+
+These methods involved lengthy processes from planning to deployment, which no longer serve the rapid demand of the current market.
+
+## Current Trends
+
+- Distributed architecture (often service-oriented)
+- Virtual machines for running services
+- Agile development as a standard practice
+
+These trends represent a considerable shift towards more dynamic resource management and faster, more iterative delivery cycles.
+
+## Future Directions
+
+### Architecture: Microservices
+
+- Small, focused services improving the independence and agility of service development.
+- REST-based communication, replacing older, heavier XML-based communications.
+
+### Infrastructure: Cloud Computing
+
+- Both public and private clouds.
+- Dynamic scaling benefits, especially effective with smaller, more isolated services (microservices).
+
+### Development: DevOps and SRE
+
+- Merging development's need for speed with operations' need for reliability.
+- Programming the infrastructure provided by the cloud requires operations to blend with development skills.
+- Agile responses to business demands, with applications easily monitored and resilient.
+
+## The Interconnection
+
+Microservices, cloud computing, and modern development practices (DevOps, SRE) are not isolated transformations. Instead, they form a symbiotic relationship for effective application modernization. Each relies on the others for the full realization of their benefits.
+
+- **Microservices** demand cloud infrastructure for rapid and dynamic scaling.
+- **Cloud platforms** are optimized through the distribution and isolation offered by microservices.
+- **DevOps** binds these by automating the cloud and ensuring resilience through operations, enabling rapid and safe changes encouraged by a microservice architecture.
+
+## Conclusion: The Holistic Approach of Application Modernization
+
+Application modernization encompasses transitioning from traditional architectures to microservices, adopting cloud computing, and reforming ways of working through DevOps and SRE. When organizations undertake these transformations in tandem, they achieve a more efficient, resilient, and agile application infrastructure, necessary for meeting current and future market demands.
 
 <!-- /MarkdownTOC -->
 </details>
