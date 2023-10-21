@@ -763,8 +763,6 @@ CDNs enhance website performance by distributing the service spatially relative 
 
 ---
 
-- [Hybrid Multi-Cloud, Microservices, and Serverless](#hybrid_cloud_microservices_serverless)
-
 <a id="hybrid_cloud_microservices_serverless"></a>
 ## Hybrid Multi-Cloud, Microservices, and Serverless
 <details close>
