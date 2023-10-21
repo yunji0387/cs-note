@@ -1503,8 +1503,6 @@ This document discusses the critical aspects of access management in cloud secur
 
 ---
 
-- [Case Studies and Jobs](#case_study_jobs)
-
 <a id="resources"></a>
 ## Resources
 <details close>
