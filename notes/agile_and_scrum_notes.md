@@ -162,7 +162,63 @@ Adopting Agile practices such as working in small batches, developing MVPs, and 
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-###
+### Scrum Overview
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Agile vs. Scrum Summary Notes
+
+## Overview
+- **Agile**: A philosophy or mindset focused on iterative development, collaboration, and adaptability.
+- **Scrum**: A methodology implementing Agile principles in a prescriptive and structured manner.
+
+## Scrum in Detail
+
+### Characteristics
+- Management framework for incremental product development.
+- Emphasizes small, cross-functional, self-managing teams.
+- Provides structure through roles, rules, and artifacts.
+- Iterative approach using fixed-length increments called "sprints."
+- Aims for a potentially shippable product increment after each sprint.
+
+### Challenges
+- Easy to understand but difficult to master.
+- Requires experience, consider hiring a mentor for guidance.
+
+### The Sprint
+- One iteration through the design, code, test, deploy cycle.
+- Each sprint has a clear goal.
+- Typically two weeks long (varies from one to four weeks).
+- Must result in a deployable increment to gather customer feedback.
+
+### Steps in the Scrum Process
+1. **Product Backlog**: The comprehensive list of project tasks.
+2. **Backlog Refinement**: Grooming tasks to ensure they are ready for the next phase.
+3. **Sprint Planning**: Creating a sprint backlog from the product backlog tasks.
+4. **Daily Scrum/Stand-up**: Daily team update meeting.
+    - What was done yesterday?
+    - What will be done today?
+    - Any blockers?
+5. **Sprint Review and Retrospective**: Assessing the completed work and team's process.
+
+### Iterative Development
+- Continuous cycle: Design, code, test, deploy.
+- Feedback from each sprint informs the next.
+- Central to Scrum, ensuring agility and customer focus.
+
+## Conclusion
+- Scrum is an Agile framework with a clear, structured methodology.
+- It requires commitment and understanding, often necessitating experienced guidance.
+- Sprints keep the team focused and aligned with user feedback.
+- The process is iterative, adapting to insights gathered throughout the project's progression.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### The Roles of Scrum
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
@@ -174,7 +230,6 @@ Adopting Agile practices such as working in small batches, developing MVPs, and 
 
 ---
 
-###
 
 <!-- /MarkdownTOC -->
 </details>
