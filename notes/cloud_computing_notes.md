@@ -5,6 +5,7 @@
 - [Deployment Models](#deployment_models)
 - [Cloud Infrastructure](#cloud_infrastructure)
 - [Cloud Storage and Content Delivery Networks](#storage_and_delivery_networks)
+- [Hybrid Multi-Cloud, Microservices, and Serverless](#hybrid_cloud_microservices_serverless)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -751,6 +752,75 @@ Presenter: Amy Blea, IBM Cloud
 ## Summary
 
 CDNs enhance website performance by distributing the service spatially relative to end-users. This mechanism provides high availability and performance by replicating the content from the original server and delivering it quickly and efficiently to users worldwide. Moreover, the use of a CDN can also lead to indirect benefits such as improved security, reduced server load, and potentially increased uptime due to minimized direct interactions between users and the primary server.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+- [Hybrid Multi-Cloud, Microservices, and Serverless](#hybrid_cloud_microservices_serverless)
+
+<a id="hybrid_cloud_microservices_serverless"></a>
+## Hybrid Multi-Cloud, Microservices, and Serverless
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Hybrid Multi-Cloud
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Hybrid and Multi-Cloud Strategies: Use Cases and Benefits
+
+## Introduction
+- **Hybrid cloud** connects an organization's private cloud and public cloud, forming a unified infrastructure.
+- **Multi-cloud** involves using services from different providers across various cloud models (IaaS, PaaS, SaaS).
+- **Hybrid multi-cloud** allows leveraging the best services from various providers, ensuring seamless application/workload performance across multiple clouds.
+
+## Use Cases
+
+### 1. Cloud Scaling
+- Common reason for cloud adoption; particularly useful for businesses with fluctuating operational demands.
+- Example: A flower delivery service scales resources during peak seasons (e.g., holidays) and scales down during off-peak times, optimizing costs and resource usage.
+
+### 2. Composite Cloud Applications
+- Applications spread across multiple cloud environments, useful for global service offerings.
+- Example: Flower delivery service uses on-premises infrastructure in Europe and adopts cloud solutions in North America to handle region-specific demands.
+
+### 3. Industry-Specific Modernization (Airline Industry)
+- Modern mobile applications enhance user experiences, often requiring integration between on-premises systems and cloud-based services.
+- Example: Airlines improve customer satisfaction by enabling mobile access for ticket booking, especially during flight delays.
+
+### 4. Data and AI Optimization
+- Leveraging historical data with AI for predictive analysis, enhancing operational efficiency, and customer satisfaction.
+- Example: Airlines use predictive analytics to foresee and mitigate unplanned maintenance, a major cause of flight delays.
+
+## Additional Advantages of Hybrid Multi-Cloud
+- **Avoiding Vendor Lock-in**: Provides the flexibility to shift workloads among different cloud services as needed.
+- **Optimized Performance**: Selecting the most suitable cloud services for specific operational aspects or regions.
+- **Cost Efficiency**: Managing resources according to demand, preventing unnecessary expenses on infrastructure.
+
+## Conclusion
+- Hybrid and multi-cloud strategies empower businesses to optimize operations, innovate services, and enhance user experiences through flexible, scalable, and efficient cloud integrations.
+- Upcoming discussions will explore microservices architecture, highlighting its characteristics, advantages, and practical applications.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Microservices
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
 
 <!-- /MarkdownTOC -->
 </details>
