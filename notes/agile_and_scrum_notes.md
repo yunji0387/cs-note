@@ -793,6 +793,9 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
+### Scrum Process
+![scrum process](./images/scrum_process.png)
+
 ### Backlog Refinement: Getting Started
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
