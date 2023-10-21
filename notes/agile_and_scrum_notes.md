@@ -362,6 +362,7 @@ Scrum, with its structured approach and specific roles and rituals, promotes a p
 <!-- MarkdownTOC -->
 
 ### Organizational impact of Agile
+<details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
