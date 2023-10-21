@@ -1308,7 +1308,34 @@ Each team member answers three critical questions:
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# End of Sprint Activities Summary
+
+## Closing Out the Sprint
+- Move all items from the **Done** column to **Closed**.
+- Close the current milestone to reflect in the velocity charts.
+- Create a new sprint milestone (can be done in the next sprint planning meeting).
+
+## Handling Unfinished Work
+### Untouched Stories
+- Move untouched stories (those that haven’t been worked on) to the top of the product backlog, not necessarily into the next sprint.
+- Unassign them from the current sprint milestone.
+
+### Unfinished Stories
+- Don’t directly move unfinished stories to the next sprint as it affects the velocity.
+- Adjust the story size to reflect the work done and credit the team accordingly.
+- Write a new story for the remaining work with the appropriate story points.
+- Label the original story as unfinished or similar for clarity.
+
+## Preparing for the Next Sprint
+- Ensure all stories from the current sprint are closed.
+- Reassign unfinished stories by creating new ones, adjusted for the remaining work.
+- Close the sprint milestone and remove any stories still assigned to it.
+- Consider creating the new sprint milestone immediately or during the next planning meeting.
+
+## Key Takeaways
+- Give developers credit for the work they've done, even if the story is unfinished.
+- Split unfinished stories into new stories for completion in the next sprint to maintain accurate velocity.
+- Close each sprint milestone upon completion and create a new one for the upcoming sprint.
 
 <!-- /MarkdownTOC -->
 </details>
