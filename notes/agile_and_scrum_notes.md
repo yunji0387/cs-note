@@ -519,6 +519,58 @@ In development projects, attempting to plan every detail from the start often le
 
 ---
 
+### Agile Roles and the Need for Training
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Common Pitfalls in Agile Transformation
+
+Organizational challenges often impede true Agile adoption. One significant issue is the reassignment of traditional roles to Agile ones without proper training or understanding of the responsibilities and mindset shifts involved.
+
+## Misalignment of Roles and Responsibilities
+
+Transitioning to Agile involves more than just changing titles; it requires a fundamental shift in roles and responsibilities.
+
+### 1. Product Manager vs. Product Owner
+
+- **Product Manager**: Primarily focused on the business and operational aspects, such as managing budgets.
+- **Product Owner**: Acts as a visionary, leading the team through experiments to achieve the sprint goal. This role requires a different skill set centered on product direction rather than budget management.
+
+> Misconception: A Product Manager can seamlessly transition into a Product Owner role without guidance and training on the different focus required.
+
+### 2. Project Manager vs. Scrum Master
+
+- **Project Manager**: Task-oriented, keeping the team aligned with the project plan. They tend to document risks and expect team members to handle impediments themselves.
+- **Scrum Master**: Serves as a coach, focusing on keeping the team self-sufficient and helping eliminate impediments directly. They foster a self-managing environment.
+
+> Misconception: A Project Manager can become a Scrum Master without understanding the fundamental shift from task management to team empowerment.
+
+### 3. Development Team vs. Scrum Team
+
+- **Development Team**: Often composed only of software engineers.
+- **Scrum Team**: A cross-functional unit that includes various roles necessary for the project, such as testers, security experts, business analysts, and operations staff.
+
+> Misconception: A group of software engineers can operate as a Scrum Team without integrating diverse roles necessary for a holistic approach to product development.
+
+## The Need for a Shift in Leadership Mindset
+
+Bill Cantor emphasized that business leaders must acknowledge the departure from traditional fixed-function project management to successfully adopt Agile.
+
+- Leadership must stop expecting distant future predictions and instead focus on short-term, adaptable planning.
+- Questions from management should shift from long-term outcomes to immediate customer value and team objectives.
+
+## Conclusion: Importance of Proper Training in Agile Transition
+
+Adopting Agile is not merely a change in terminology but a fundamental shift in mindset and operations. Proper training for new roles is essential, as is the need for upper management to embrace the Agile approach genuinely. Without these, organizations risk falling into familiar patterns that are counterproductive to Agile methodologies.
+
+**Key Takeaway**: Transitioning to Agile requires thorough training, a shift in focus, and new priorities for everyone involved, from team members to upper management.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
