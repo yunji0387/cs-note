@@ -1,10 +1,11 @@
 # Agile Development and Scrum
 
 ## Table of Contents
-- [](#)
+- [Agile Philosophy](#agile_philosophy)
+- [Scrum Methodology](#scrum_methodology)
 - [Resources](#resources)
 
-<a id=""></a>
+<a id="agile_philosophy"></a>
 ## Agile Philosophy
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
@@ -150,7 +151,18 @@ Adopting Agile practices such as working in small batches, developing MVPs, and 
 
 ---
 
-### 
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="scrum_methodology"></a>
+## Scrum Methodology
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+###
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
@@ -162,11 +174,13 @@ Adopting Agile practices such as working in small batches, developing MVPs, and 
 
 ---
 
+###
 
 <!-- /MarkdownTOC -->
 </details>
 
 ---
+
 
 <a id="resources"></a>
 ## Resources
