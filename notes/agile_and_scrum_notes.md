@@ -4,6 +4,7 @@
 - [Agile Philosophy](#agile_philosophy)
 - [Scrum Methodology](#scrum_methodology)
 - [Organizing for Success](#organizing_for_success)
+- [Planning to be Agile](#planning_to_be_agile)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -466,6 +467,63 @@ Many organizations mistakenly label their processes as "Agile" when they're actu
 </details>
 
 ---
+
+<a id="planning_to_be_agile"></a>
+## Planning to be Agile
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Destination Unknown
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Navigating the Unknown: Agile Planning
+
+Douglas Adams humorously captured the nature of deadlines with his quote: 
+> "I love deadlines. I love the whooshing sound they make as they fly by."
+
+This sentiment underscores a common issue: **missed deadlines**. The question is, why does this keep happening, and how can we navigate these uncertainties better?
+
+## The Challenge of Traditional Planning
+
+- Traditional project management often involves setting a 'stake in the ground' at the very start.
+- However, akin to navigating through a constantly moving field of penguins, software development is filled with variables.
+- These variables (like ongoing patches and updates) make it challenging to stick to initial plans.
+
+## Agile's Approach: Iterative Planning
+
+- Agile promotes **navigating the unknown** through iterative planning, an approach that aligns with moving through an unpredictable environment.
+- Key idea: **Don’t decide everything at the point you know the least.** At a project's start, our knowledge is minimal, making detailed planning impractical and often inaccurate.
+
+### Benefits of Iterative Planning
+
+1. **Adaptability**: Allows for course corrections as more information becomes available.
+2. **Improved Estimates**: As teams progress, they can make more accurate estimates for the immediate future, rather than uncertain long-term predictions.
+
+### Practical Application
+
+- Avoid attempting to be omnipotent with project planning.
+- Plan based on current knowledge, then adjust as more information is gathered.
+- Recognize that estimates for the distant future (e.g., three months away) will be inherently less accurate than those for the immediate future (e.g., two weeks away).
+
+## Summary
+
+In development projects, attempting to plan every detail from the start often leads to the familiar whoosh of missed deadlines. Agile methodologies encourage a more adaptive approach. By embracing iterative planning and understanding that plans are based on what we know now, teams can navigate through their projects more effectively and meet deadlines more consistently.
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 
 <a id="resources"></a>
 ## Resources
