@@ -6,6 +6,7 @@
 - [Cloud Infrastructure](#cloud_infrastructure)
 - [Cloud Storage and Content Delivery Networks](#storage_and_delivery_networks)
 - [Hybrid Multi-Cloud, Microservices, and Serverless](#hybrid_cloud_microservices_serverless)
+- [Cloud Native Applications, DevOps, and Application Modernization](#cloud_native_app_devops_app_modernization)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -905,6 +906,93 @@ CDNs enhance website performance by distributing the service spatially relative 
 ## Conclusion
 - Serverless computing offers significant benefits in scalability, cost-efficiency, and streamlined developer experience.
 - It is essential to evaluate the specific needs and characteristics of your application to determine the suitability of adopting a serverless architecture.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="cloud_native_app_devops_app_modernization"></a>
+## Cloud Native Applications, DevOps, and Application Modernization
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Cloud Native Applications
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Cloud-Native Applications: Overview
+
+## Definition
+- **Cloud-Native Applications**: Designed from the ground up to operate fully in the cloud, these applications embody microservices architecture, automation, orchestration, and containerization principles.
+
+## Key Characteristics
+- Composed of **microservices** that function collectively to form an application.
+- Each microservice can be scaled and improved independently.
+- Utilize **containers** for encapsulating the application along with its dependencies, ensuring consistency across multiple environments.
+
+## Comparison with Traditional Applications
+- Traditional (monolithic) applications are large, unified software that intertwines user interface, business logic, and data layer.
+- Cloud-native applications, by contrast, break these components down into microservices for flexibility, scalability, and resilience.
+
+## Example: Travel Website
+- Illustrates how a cloud-native approach allows individual microservices (e.g., flights, hotels, car rentals) to update and scale independently while presenting a unified platform to the user.
+
+## Development Principles
+- Embrace **microservices architecture** for single-function modules.
+- Implement **containers** for flexibility, scalability, and portability.
+- Adopt **Agile methodologies** for rapid, iterative development based on user feedback.
+
+## Cloud-Native Architecture (Explained by Andrea Crawford from IBM Cloud)
+- **Cloud Infrastructure**: Encompasses private, public, and enterprise environments. Relevant for hybrid and multicloud deployments.
+- **Scheduling and Orchestration Layer**: Focus on control planes (e.g., Kubernetes) for managing microservices.
+- **Application and Data Services Layer**: Integration of application code with services across different clouds or on-premises systems.
+- **Application Runtimes**: The new "middleware" for cloud-native applications.
+- **The Sweet Spot**: Cloud-native applications reside here, designed and delivered distinctly compared to monolithic structures.
+
+## Benefits of Cloud-Native Apps
+- Foster innovation and business agility.
+- Commoditize solutions, pushing core services lower in the stack, encouraging a richer innovation layer above.
+- Standardization across services (e.g., logging, events), simplifying development processes.
+
+## Use Cases
+- Ideal for **all applications** intended to operate in the cloud.
+- Essential for applications requiring elements like standardized logging, distributed tracing, service discovery, and routing.
+
+## Key Takeaways
+- Cloud-native design is integral to modern application development, especially for achieving engineering at scale.
+- It emphasizes the importance of foundational services, standardization, and commoditization to free developers for more innovative tasks.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### DevOps on the Cloud
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Application Modernization
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
 
 <!-- /MarkdownTOC -->
 </details>
