@@ -10,6 +10,7 @@
 7. [Algorithms](#algorithm)
 8. [Cloud Computing](./notes/cloud_computing_notes.md)
 9. [DevOps](./notes/devops_notes.md)
+10. [Agile Development and Scrum](./notes/agile_and_scrum_notes.md)
    
 ---
 
