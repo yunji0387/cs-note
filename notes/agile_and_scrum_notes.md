@@ -661,7 +661,7 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 2. **Assumptions & Details**: Providing necessary context or specific conditions that developers need to consider.
 3. **Acceptance Criteria/Definition of Done**: Establishing clear, testable conditions that must be met for the user story to be considered complete.
 
-## INVEST Criterion for Robust User Stories
+## INVEST(by Bill Wake) Criterion for Robust User Stories
 
 - **Independent**: The story should stand alone and be deliverable without depending on others.
 - **Negotiable**: Details can be discussed and redefined by team members and stakeholders.
@@ -698,7 +698,35 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Summary of Story Points in Agile
+
+## Definition
+- **Story Points**: An abstract metric used to estimate the difficulty of implementing a user story. 
+
+## Key Components of Estimating Story Points
+- **Effort**: The amount of work required to complete a user story.
+- **Complexity**: The intricacy of the user story.
+- **Uncertainty**: The unknown factors that may affect the completion of the user story.
+
+## Estimation Technique
+- Story points provide a relative value of the size of a story.
+- Commonly use a modified Fibonacci sequence to assign points (e.g., 3 for small, 5 for medium, 8 for large, 13 for extra-large).
+- The team must agree on what constitutes each size category (e.g., what a 'medium' story entails).
+- The process is akin to comparing buildings' sizes without measuring their exact height.
+
+## Recommendations for User Stories
+- Keep stories relatively small, something that can be completed in a few days.
+- Larger stories should be broken down into smaller ones for manageability and efficient tracking.
+
+## Anti-Patterns to Avoid
+- **Equating Story Points with Wall Clock Time**: Story points are not equivalent to specific hours or days. They are a measure of relative size and complexity.
+  - Avoid statements like "a 3-point story is 3 days of work."
+  - Humans are inherently bad at estimating exact times due to unforeseen complications or other work aspects.
+
+## Important Takeaways
+- Story points are abstract and relative, not concrete measurements.
+- They help teams avoid the pitfalls of tying estimations to exact timeframes.
+- The focus is on understanding the relative effort, complexity, and uncertainty, not the specific duration.
 
 <!-- /MarkdownTOC -->
 </details>
