@@ -7,6 +7,7 @@
 - [Planning to be Agile](#planning_to_be_agile)
 - [User Stories](#user_stories)
 - [The Planning Process](#planning_process)
+- [Executing the Plan](#executing_plan)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -975,6 +976,120 @@ Backlog refinement is a critical process in sprint planning, helping teams prior
 
 ---
 
+<a id="executing_plan"></a>
+## Executing the Plan
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Workflow for Daily Plan Execution
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Scrum Process: Daily Workflow in Sprints
+
+## Overview
+This document summarizes the workflow that team members follow during the execution of a sprint in the Scrum process. It emphasizes the importance of focusing on one story at a time and following the prioritization established in the sprint backlog.
+
+## Sprint Execution
+- Sprints represent a single iteration through design, coding, testing, and deployment phases, typically lasting two weeks.
+- Each sprint has a specific goal guiding the team's efforts.
+
+## Daily Execution Workflow
+1. **Selecting a Story**: Team members start by taking the highest priority item from the sprint backlog that matches their skills.
+   - Members don't pick favorites; priority dictates the order.
+   - They assign the chosen story to themselves, marking it as "In Progress."
+
+2. **Work Visibility**: Using tools like a Kanban board increases transparency about who is working on what.
+   - Stories move from 'Sprint Backlog' to 'In Progress' once they're picked up.
+   - Team members' avatars indicate their current tasks.
+
+3. **Focus on Single Stories**: Concentrating on one story at a time maximizes efficiency and output.
+   - Multitasking across multiple stories is discouraged.
+   - The only exception is if a team member is blocked and awaiting unblocking.
+
+4. **Pull Requests**: Upon story completion, members create a pull request, transitioning the story to 'Review/QA.'
+   - Tools like ZenHub automate this transition in GitHub.
+   - Linking the pull request with the issue drags the task into 'Review/QA.'
+
+5. **Review Process**: Teammates review work in the 'Review/QA' phase.
+   - Once the pull request merges, the story moves to 'Done.'
+
+6. **Cycle Continuation**: Post-completion, members return to the sprint backlog to pick the next story and repeat the process.
+
+## Key Takeaways
+- Keeping the Kanban board updated ensures clarity on work progress.
+- It's crucial to work on the highest priority story one is skilled for.
+- Handling more than one story simultaneously can hinder sprint goals achievement.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### The Daily Stand Up
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Daily Stand-Up Meeting in Scrum
+
+## Overview
+This document provides insights into the conduct and structure of daily stand-up meetings in the Scrum process, emphasizing its purpose, time management, and participant roles.
+
+## Purpose of the Daily Stand-Up
+- Facilitates team updates on individual work.
+- Identifies blockers and seeks resolutions.
+- Not a detailed status update meeting but a quick synchronization among team members.
+
+## Conducting the Meeting
+- Held **daily** at the **same place and time**.
+- Strict **15-minute time-box**.
+- Participants **stand** to ensure brevity and focus.
+- Often facilitated by the **Scrum Master**.
+
+## Participants
+- **Scrum Master**: Essential for facilitating and addressing blockers.
+- **Development Team**: All members should be present to report on their tasks.
+- **Product Owner**: Optional attendance, with a passive role if present.
+
+## Core Questions
+Each team member answers three critical questions:
+1. **What did I get done yesterday?**
+2. **What am I going to work on today?**
+3. **Are there any blockers or impediments in my way?**
+
+## Key Rules
+- Focus is on peer-to-peer communication about tasks and blockers, not a session for detailed inquiries or status updates for stakeholders.
+- Non-related discussions (tabled topics) are deferred to after the meeting ("parking lot" method).
+- Scrum Master's role is pivotal in addressing blockers and keeping the meeting on track.
+
+## Handling Blockers
+- Immediate resolution of blockers is a priority for the Scrum Master.
+- Developers who are blocked may start working on a new story from the backlog.
+- Blockers expected to be resolved shortly (within hours) can be temporarily set aside while working on secondary tasks.
+
+## Tabled Topics
+- Discussions not related to the three core questions are set aside for post-meeting.
+- Interested members can stay back to discuss, allowing others to proceed with their day.
+- Maintains the efficiency and purpose of the stand-up meeting.
+
+## Summary of Learnings
+- The daily stand-up is a consistent, time-boxed meeting for work synchronization among team members.
+- It centers around brief updates to foster collaboration and problem-solving.
+- It is not a status meeting for stakeholders, and non-critical discussions are deferred.
+- Effective stand-up meetings contribute to the team's agility and productivity during the sprint.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
 
 <a id="resources"></a>
 ## Resources
