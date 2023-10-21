@@ -6,6 +6,7 @@
 - [Organizing for Success](#organizing_for_success)
 - [Planning to be Agile](#planning_to_be_agile)
 - [User Stories](#user_stories)
+- [The Planning Process](#planning_process)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -785,6 +786,105 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 </details>
 
 ---
+
+<a id="planning_process"></a>
+## The Planning Process
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Backlog Refinement: Getting Started
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Backlog Refinement Summary
+
+## Overview
+This document summarizes the process of backlog refinement in the scrum process, the responsibilities during a backlog refinement meeting, and the approach to triaging new issues on the kanban board.
+
+## Backlog Refinement Process
+- **Objective**: Prioritize the backlog and prepare user stories for the upcoming sprint.
+- **Steps**:
+  1. Rank items in the backlog in order of priority.
+  2. Break down larger stories into smaller, manageable ones.
+  3. Ensure top stories are detailed enough for developers to work on immediately.
+
+## Backlog Refinement Meeting
+- **Attendees**:
+  - Product Owner (essential) - provides vision and writes user stories.
+  - Scrum Master (essential) - assists the product owner.
+  - Development Team members (optional) - technical lead or architect to provide technical insight.
+
+- **Goals**:
+  - Achieve a ranked product backlog.
+  - Focus on what's most valuable to the business.
+  - Prepare detailed user stories for the sprint planning meeting.
+
+## Handling New Issues: Triage
+- **Process**:
+  1. Start with the 'New Issue' column, aim to empty it by the meeting's end.
+  2. Triage new issues:
+     - Move immediate priorities to the product backlog.
+     - Long-term or lower priority items go into the icebox.
+     - Reject items that don’t align with the product direction.
+
+- **Decision Making**: Based on business value, technical dependencies, and current product goals.
+
+## Workflow for Backlog Refinement
+- **Story Estimation**: Preliminary story points may be assigned to gauge the size of the backlog.
+- **Story Breakdown**: Large or vague items are clarified or divided into smaller stories.
+- **Sprint-Ready Stories**: Ensure stories are detailed enough for the sprint, with minimal need for further clarification.
+
+## Story Template Enhancement
+- **Template Components**:
+  - User Story: 'As a [role], I need [function] so that [business value].'
+  - Acceptance Criteria: Defined using Gherkin syntax (Given, When, Then).
+  - Definition of Done: Clear, measurable outcomes.
+  - Assumptions: Any premises or conditions assumed to be true.
+
+## Responsibilities
+- **Product Owner**: Main person responsible for a groomed backlog.
+- **Refinement Initiation**: Start by triaging new issues to keep the backlog updated and relevant.
+
+## Summary
+- By understanding and applying these principles, the scrum team ensures a well-maintained backlog, efficient sprint planning, and effective handling of new issues, keeping the product development process agile and goal-oriented.
+
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Backlog Refinement Finishing Up
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Sprint Planning
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 
 <a id="resources"></a>
 ## Resources
