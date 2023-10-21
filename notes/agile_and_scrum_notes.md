@@ -1195,7 +1195,45 @@ Each team member answers three critical questions:
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Sprint Retrospective Overview
+
+## Definition of Sprint Retrospective
+- The **Sprint Retrospective** is a meeting held at the end of a Sprint cycle to reflect on the process, outcomes, and team dynamics throughout the sprint.
+- Its primary purpose is to identify what went well, what didn't, and what can be improved in future Sprints.
+
+## Key Objectives
+- Encourage a transparent, comfortable environment for the team to speak freely.
+- Assess the overall health of the development process and team dynamics.
+- Continuously improve by learning from successes and failures.
+
+## Participants
+- **Scrum Master**: Facilitates the meeting, ensures a safe, collaborative environment, and collects feedback for future improvement.
+- **Development Team**: Active participants providing insights and reflections.
+- **Product Owner**: Typically not invited to ensure candid feedback, unless the team is comfortable and can speak freely in their presence.
+
+## The Three Reflection Questions
+1. **What did we do well?**
+   - Identify successes and positive strategies to continue in future Sprints.
+
+2. **What did not go well?**
+   - Discuss challenges, setbacks, or ineffective practices that should be discontinued.
+
+3. **What should we do differently?**
+   - Pinpoint areas of change and introduce new strategies for improvement.
+
+## Conducting a Sprint Retrospective
+- Encourage open dialogue among the development team members, allowing them to voice concerns or areas for improvement without fear of judgment.
+- Document the discussed points, focusing on actionable strategies.
+- The Scrum Master should ensure that changes are indeed implemented following the team's feedback, avoiding a scenario where the meeting is perceived as unproductive or ignored.
+
+## Outcome
+- The retrospective should lead to actionable changes that aim to improve team dynamics, efficiency, and overall Sprint outcomes.
+- The Scrum Master must follow up on these changes, ensuring they are implemented in subsequent Sprints.
+- The ultimate goal is continuous improvement, fostering a more effective, agile, and cohesive team environment.
+
+## Summary of Learnings
+- A Sprint Retrospective is an essential element of the Agile process, allowing for critical reflection and iterative improvement in team processes and morale.
+- It emphasizes psychological safety, ensuring team members can express themselves honestly, leading to genuine improvements and sustained team health.
 
 <!-- /MarkdownTOC -->
 </details>
