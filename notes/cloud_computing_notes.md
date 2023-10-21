@@ -778,7 +778,7 @@ CDNs enhance website performance by distributing the service spatially relative 
 
 ## Introduction
 - **Hybrid cloud** connects an organization's private cloud and public cloud, forming a unified infrastructure.
-- **Multi-cloud** involves using services from different providers across various cloud models (IaaS, PaaS, SaaS).
+- **Multi-cloud** is a cloud adoption strategy involves using services from different providers across various cloud models (IaaS, PaaS, SaaS).
 - **Hybrid multi-cloud** allows leveraging the best services from various providers, ensuring seamless application/workload performance across multiple clouds.
 
 ## Use Cases
@@ -821,6 +821,7 @@ CDNs enhance website performance by distributing the service spatially relative 
 
 ## Overview
 - **Microservices Architecture**: An architectural style where an application is structured as a collection of loosely coupled services, improving modularity and making the application easier to understand, develop, and scale.
+- They communicate with one another over a combination of: APIs, Event streaming, Message brokers.
 
 ## Key Concepts
 - **Traditional Monolithic Applications**: Earlier, large applications were built entirely as a single unit by a team over months.
