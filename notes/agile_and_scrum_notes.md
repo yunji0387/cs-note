@@ -571,6 +571,64 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 
 ---
 
+### Kanban and Agile Planning Tools
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Agile Planning with ZenHub
+
+## Introduction
+- Agile tools facilitate but don't replace an Agile mindset.
+- Importance of understanding project management concepts.
+- Preference for simplicity in tracking items (Epics and Stories over tasks and subtasks).
+
+## ZenHub Overview
+- ZenHub is a GitHub plugin, adding project management capabilities within GitHub.
+- Features a Kanban board customizable to specific project needs.
+- Developers stay within GitHub, avoiding fragmentation and outdated statuses.
+
+## Advantages of ZenHub
+- Utilizes GitHub issues, keeping everything integrated.
+- Real-time status updates within the developers' primary workspace.
+- Streamlines communication and status tracking for management.
+
+## Understanding Kanban Boards
+- Represents tasks to do, in progress, and completed.
+- Visual and intuitive layout for tracking progress.
+- Example provided with a real-world physical Kanban board.
+
+## ZenHub Pipelines (Columns)
+1. **New Issues**: Acts like an inbox for all new items.
+   - Requires regular triage to keep updated.
+2. **Icebox**: Long-term storage for issues to address later.
+   - Helps in keeping active pipelines decluttered.
+3. **Product Backlog**: Comprehensive list of future tasks.
+   - Doesn't include current tasks.
+   - De-clutters by moving long-term tasks to the Icebox.
+4. **Sprint Backlog**: Tasks planned for the upcoming sprint.
+   - Main focus area for developers.
+5. **In Progress**: Tasks currently being worked on.
+   - Visible assignment to developers.
+6. **Review/QA**: Pull requests and quality assurance stage.
+   - Collaborative reviewing of completed work.
+7. **Done**: Completed tasks by developers.
+   - Awaits product owner's final review and acceptance.
+
+## Workflow Summary
+- Tasks flow from left to right, starting with new issues and concluding with done items.
+- Developers maintain focus on the Sprint Backlog and In Progress work.
+- Continuous cycle of progress and review.
+
+## Conclusion
+- The Kanban board is a dynamic, visual tool in Agile project management.
+- ZenHub integrates this functionality within GitHub, simplifying the workflow and increasing productivity.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 <!-- /MarkdownTOC -->
 </details>
 
