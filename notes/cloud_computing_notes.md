@@ -7,6 +7,8 @@
 - [Cloud Storage and Content Delivery Networks](#storage_and_delivery_networks)
 - [Hybrid Multi-Cloud, Microservices, and Serverless](#hybrid_cloud_microservices_serverless)
 - [Cloud Native Applications, DevOps, and Application Modernization](#cloud_native_app_devops_app_modernization)
+- [Cloud Security and Monitoring](#cloud_security_and_monitoring)
+- [Case Studies and Jobs](#case_study_jobs)
 - [Resources](#resources)
 
 <a id="service_models"></a>
@@ -1098,6 +1100,109 @@ Application modernization encompasses transitioning from traditional architectur
 </details>
 
 ---
+
+<a id="cloud_security_and_monitoring"></a>
+## Cloud Security and Monitoring
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Cloud Security
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Cloud Security Summary
+
+## Part 1: Understanding Cloud Security
+
+- Transition to **cloud-based environments** brings potential security threats.
+- Different **service models** (*IaaS, PaaS, SaaS*) come with unique security responsibilities.
+- **Data security** remains a critical concern despite providers' security measures.
+- Organizations must manage compliance and approvals for data on the cloud.
+
+### Key Security Challenges:
+1. **Lack of visibility** in public cloud environments.
+2. Risks of **multitenancy** in public clouds.
+3. **Access management** and Shadow IT concerns.
+4. **Misconfigurations** leading to data breaches.
+
+### Evolving Threats:
+- **Insider threats** from individuals within or once associated with the organization.
+- **DDoS attacks** overwhelming servers with traffic.
+
+### Security Models in Cloud Computing:
+- **Shared responsibility model** divides security accountability between provider and user.
+- Variations in responsibilities across *IaaS, PaaS, and SaaS*.
+
+## Part 2: Advanced Cloud Security Measures
+
+- Hybrid cloud environments increase **threat attack surfaces**.
+- Need for robust, data-centric **cybersecurity programs**.
+
+### Data Security Capabilities:
+- Continuous **data discovery and classification**.
+- **Database security monitoring**.
+- Policy-driven **data loss prevention**.
+
+### Access Controls and Authentication:
+- Developing **Cloud IAM strategies** with zero-trust architecture.
+- Scalability in IAM for large user bases.
+
+### Cloud Network Security:
+- **Centralized security monitoring** and management.
+- **Real-time detection** and prevention of attacks.
+- **Encryption services** for data protection.
+
+## Best Practices for Cloud Security:
+
+### Phase 1: Identify
+- Assess how data is accessed and any unknown cloud usage.
+- Regularly monitor configurations and signs of malicious activity.
+
+### Phase 2: Protect
+- Implement robust protection policies and data encryption.
+- Restrict data sharing and use anti-malware solutions.
+
+### Phase 3: Respond
+- Enhance authentication for high-risk scenarios.
+- Update policies regularly to adapt to new services.
+
+### Compliance and Frameworks:
+- Adherence to **NIST's cybersecurity framework** principles: Identify, Protect, Detect, Respond, Recover.
+- Use of **Cloud Security Posture Management (CSPM)** to avoid common cloud misconfigurations.
+
+## Emerging Trends and Final Thoughts:
+- **Multi-cloud strategies** and cybersecurity mesh.
+- **Zero-trust security models** and cloud-native tools.
+- **AI and machine learning** in threat detection.
+- Persistent focus on privacy and data protection regulations.
+
+**Conclusion**: Vigilance and advanced strategies are essential in securing cloud environments, given the evolving nature of threats. Organizations must embrace comprehensive security measures and frameworks to protect their cloud assets.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Policies and Principles of Access Management
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+- [Case Studies and Jobs](#case_study_jobs)
 
 <a id="resources"></a>
 ## Resources
