@@ -9,6 +9,7 @@
 - [The Planning Process](#planning_process)
 - [Executing the Plan](#executing_plan)
 - [Completing the Sprint](#completing_sprint)
+- [Measuring Success](#measuring_success)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -1244,6 +1245,93 @@ Each team member answers three critical questions:
 </details>
 
 ---
+
+<a id="measuring_success"></a>
+## Measuring Success
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Using Measurements Effectively
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Understanding Actionable Metrics in Team Performance
+
+## Introduction
+- Metrics are crucial for improvement as they provide tangible ways to track performance and progress.
+- High performing teams rely on metrics to guide their improvements and ensure their efforts align with desired outcomes.
+
+## Vanity Metrics vs. Actionable Metrics
+- **Vanity Metrics:** These are figures that may seem impressive on the surface but don't influence informed decision-making or actions (e.g., the number of website hits).
+  - Example: "We got 10,000 hits on our website!" (without understanding the behavior or value of those visits).
+- **Actionable Metrics:** These are measurements that provide clear insights into performance and how it can be adjusted to meet established goals.
+  - They are derived from specific contexts and can guide actionable strategies.
+
+## Characteristics of High-Performing Teams
+- They measure their performance based on reliable metrics.
+- Teams react and adapt based on these measurements to steer progress in the right direction.
+- The use of baselines and goals is prevalent, providing a measure against set objectives.
+
+## Implementing Actionable Metrics
+- Conduct A/B split-testing to understand customer preferences and behaviors.
+- Determine a baseline, set improvement goals, and then measure progress against these goals.
+- Recognize that achieving these goals is a gradual process, often spanning across multiple sprints.
+
+## Top Four Actionable Metrics
+1. **Mean Lead Time:** The duration from conceptualizing an idea to delivering it to the customer.
+2. **Release Frequency:** The regularity with which your team can push new releases.
+3. **Change Failure Rate:** The measurement of changes that fail, helping teams to gauge the quality and reliability of their releases.
+4. **Mean Time to Recovery:** How quickly a team can recover from a failure in the system, replacing the older "mean time to failure" metric.
+
+## Example Metrics for Improvement
+- Reducing time-to-market for new features.
+- Increasing overall product availability.
+- Decreasing deployment time for new releases.
+- Boosting the percentage of defects identified during testing (pre-production).
+- Providing quicker, comprehensive feedback loops from users to the team.
+
+## Conclusion
+- Metrics serve as a powerful tool for continuous improvement within teams.
+- It's imperative to choose metrics that offer actionable insights.
+- Teams should establish a baseline before pursuing change, allowing for an accurate measurement of improvement.
+- The four key actionable metrics can significantly enhance a team's performance and responsiveness.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Getting Ready for the Next Sprint
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### Agile Anti-Patterns and Health Check
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
 
 <a id="resources"></a>
 ## Resources
