@@ -8,6 +8,7 @@
 - [User Stories](#user_stories)
 - [The Planning Process](#planning_process)
 - [Executing the Plan](#executing_plan)
+- [Completing the Sprint](#completing_sprint)
 - [Resources](#resources)
 
 <a id="agile_philosophy"></a>
@@ -1080,6 +1081,88 @@ Each team member answers three critical questions:
 - It centers around brief updates to foster collaboration and problem-solving.
 - It is not a status meeting for stakeholders, and non-critical discussions are deferred.
 - Effective stand-up meetings contribute to the team's agility and productivity during the sprint.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="completing_sprint"></a>
+## Completing the Sprint
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+### Using Burndown Charts
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+# Understanding Burndown Charts
+
+## Definition of Burndown Chart
+- A **burndown chart** is a visual tool used to track the number of **story points completed** versus the number remaining over time during a sprint.
+
+## Key Characteristics of Burndown Charts
+- Reflects the team's progress toward their sprint goal.
+- Can be applied to various milestones (e.g., demos, conferences) beyond just sprints.
+- Particularly useful in agile project management contexts like Scrum.
+
+## Reading a Burndown Chart
+- The **vertical axis** represents the total number of story points the team committed to for the sprint.
+- The **horizontal axis** denotes the number of days in the sprint.
+- Vertical bars might be used to indicate weekends or non-working days.
+- The chart displays an **optimal path** for story point completion, providing a benchmark for actual progress.
+- The **actual work done** is represented by a line (e.g., a blue line), with each dot on the line signifying a completed story.
+
+## Interpreting Progress and Performance
+- A downward trend indicates the "burning down" of story points as tasks are completed.
+- Deviation from the optimal path signals potential issues or changes in the team’s velocity.
+- A sudden dip or rise in the burndown line can denote significant events or turning points within the sprint.
+
+## Practical Use and Benefits
+- **Quick and easy** to read, even for individuals without deep project management experience.
+- Provides **real-time insights** into whether the team is on track to meet the sprint goals.
+- Fosters a sense of accountability and motivation among development teams.
+- Not exclusively for management; crucial for the **development team’s self-assessment**.
+
+## Example Scenario from Video
+- The chart showed a sprint starting on a Wednesday, with weekends indicated.
+- Mid-sprint, the chart depicted a higher than expected number of stories closed, prompting the team to rally and push more towards the end, eventually meeting the sprint goal.
+
+## Summary of Learnings
+- Burndown charts are a versatile tool in the Scrum framework, helping teams visualize progress and assess the likelihood of achieving sprint goals.
+- They serve as an early warning system, allowing teams to adjust strategies if they deviate significantly from the sprint plan.
+- While simple, these charts are powerful in promoting transparency, adaptability, and team cohesion.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### The Sprint Review
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+### The Sprint Retrospective
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+- []()
 
 <!-- /MarkdownTOC -->
 </details>
