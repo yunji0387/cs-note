@@ -738,7 +738,43 @@ Adopting Agile is not merely a change in terminology but a fundamental shift in 
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
-- []()
+# Scrum Process: Product Backlog
+
+## Definition
+- **Product Backlog**: A ranked list of all the stories that are yet to be implemented.
+  - Contains stories not currently in sprints or being worked on.
+  - Ranked in order of business importance.
+  - Stories at the top have more detail compared to those at the bottom, making them "sprint ready."
+
+## Creating and Managing a Product Backlog
+
+### Example: Building a Hit Counter Service
+- **Service Requirements**:
+  1. A basic counting service.
+  2. Allows multiple counters.
+  3. Counters persist across restarts (require database).
+  4. Ability to reset counters.
+
+### Story Creation
+- Use the story template: `"As a [role], I need [function], so that [benefit]."`
+- Stories created from service requirements:
+  1. `"As a user, I need a service that has a counter so that I can keep track of how many times something has been done."`
+  2. `"As a user, I need to have multiple counters so that I can keep track of several counts at once."`
+  3. `"As a service provider, I need a service to persist the last known count so that users don't lose track of their counts after the service is restarted."`
+  4. `"As a system administrator, I need the ability to reset the counter so that I can redo counting from the start."`
+
+### Prioritizing the Backlog
+- Stories move from "New Issues" (inbox) to either the "Icebox" or "Product Backlog."
+- Prioritization example:
+  1. **Fundamental service setup**: Top of the product backlog.
+  2. **Multiple counters**: Handled later, stored in the icebox for future consideration.
+  3. **Persistence after restarts**: High priority, added to the product backlog for early implementation.
+  4. **Resetting counters**: Implemented after persistence, as it's useful for management.
+
+## Key Takeaways
+- The product backlog is dynamic and detailed, ensuring clarity on what needs to be developed next.
+- Stories higher in the backlog contain more detail, are a higher priority, and are more immediate for development.
+- Utilizing the story template ensures clarity on the beneficiary of the feature and the business value it provides.
 
 <!-- /MarkdownTOC -->
 </details>
