@@ -3,9 +3,10 @@
 # Table of Contents
 1. [ReplicaSet in Kubernetes](#replica_set)
 2. [Autoscaling in Kubernetes](#autoscaling)
-3. [Rolling Updates in Kubernetes](#rolling_updates)
-4. [ConfigMaps and Secrets in Kubernetes](#configMaps_and_secrets)
-5. [Service Binding in Kubernetes](#servic_binding)
+3. [Deployment Strategies](#deployment_strategies)
+4. [Rolling Updates in Kubernetes](#rolling_updates)
+5. [ConfigMaps and Secrets in Kubernetes](#configMaps_and_secrets)
+6. [Service Binding in Kubernetes](#servic_binding)
 
 
 
@@ -123,6 +124,130 @@ Autoscaling optimizes resource usage and costs by automatically adjusting the nu
 - Use `autoscale` command for HPA instead of manual configuration for ease of use.
 - Don't use VPA and HPA together on the same CPU/memory metrics.
 - Analyze specific needs to choose the appropriate autoscaler or combination of autoscalers.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="deployment_strategies"></a>
+# Deployment Strategies
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Overview
+
+A Kubernetes deployment strategy defines an application’s lifecycle, ensuring the desired state for objects and applications is achieved and maintained automatically. These strategies minimize risk during deployment.
+
+Kubernetes deployment strategies enable you to:
+- Deploy, update, or rollback ReplicaSets, Pods, Services, and Applications
+- Pause/Resume Deployments
+- Scale Deployments either manually or automatically
+
+## Types of Deployment Strategies
+
+There are several deployment strategies, including:
+- Recreate
+- Rolling
+- Blue/Green
+- Canary
+- A/B testing
+- Shadow
+
+Each strategy has its unique approach and use cases. They can be used independently or combined, depending on the deployment requirements.
+
+### Recreate Strategy
+
+The recreate strategy involves stopping all existing Pods and starting new ones.
+
+#### Steps
+1. Prepare the new application version (v2).
+2. Shut down all current version (v1) Pods.
+3. Deploy the new version (v2) Pods.
+
+#### Pros and Cons
+- **Pros**: Simple setup
+- **Cons**: Downtime during redeployment
+
+### Rolling Strategy
+
+The rolling update strategy incrementally replaces Pods with new ones.
+
+#### Steps
+1. Release the new application version.
+2. Replace each existing Pod with a new version, one after another.
+3. The process continues until all Pods are updated.
+
+#### Pros and Cons
+- **Pros**: Zero downtime, suitable for stateful applications
+- **Cons**: Slower deployment, no traffic control
+
+### Blue/Green Strategy
+
+This strategy involves having two identical production environments (blue and green).
+
+#### Steps
+1. The 'green' environment is set up with the new version.
+2. Once ready, the traffic is switched from 'blue' to 'green'.
+3. For rollback, traffic is redirected to 'blue'.
+
+#### Pros and Cons
+- **Pros**: Instant rollback, no downtime
+- **Cons**: High resource cost, demands extensive testing
+
+### Canary Strategy
+
+The canary release strategy exposes a subset of users to the new application version.
+
+#### Steps
+1. Deploy the new version.
+2. Route a small percentage of traffic to the new version.
+3. Gradually increase traffic as confidence grows.
+
+#### Pros and Cons
+- **Pros**: Reduced risk due to phased rollout
+- **Cons**: More complex setup, slower complete rollout
+
+### A/B Testing Strategy
+
+A/B testing involves providing two versions to different user sets.
+
+#### Steps
+1. Release both versions of the application.
+2. Direct user segments to each version based on specific criteria.
+3. Analyze performance and user feedback.
+
+#### Pros and Cons
+- **Pros**: Direct feedback, control over traffic distribution
+- **Cons**: Complexity, requires advanced traffic routing
+
+### Shadow Strategy
+
+The shadow strategy deploys a 'shadow' version alongside the live version.
+
+#### Steps
+1. Duplicate live traffic to the shadow version.
+2. The shadow version processes requests but doesn't impact the live system.
+
+#### Pros and Cons
+- **Pros**: Real-world testing without user impact
+- **Cons**: High resource cost, doesn't capture user interaction
+
+## Deployment Strategies Summary
+
+| Strategy  | Zero Downtime | Real Traffic Testing | Targeted Users | Cloud Cost | Rollback Duration | User Impact | Setup Complexity |
+|-----------|:-------------:|:--------------------:|:--------------:|:----------:|:-----------------:|:-----------:|:----------------:|
+| Recreate  |       X       |          X           |       X        |     •--    |        •••        |     •••     |        ---       |
+| Ramped    |      ✓        |          X           |       X        |     •--    |        •••        |     •--     |        •--       |
+| Blue/Green|      ✓        |          X           |       X        |     •••    |        ---        |     ••-     |        ••-       |
+| Canary    |      ✓        |         ✓            |       X        |     •--    |        •--        |     •--     |        ••-       |
+| A/B Testing|     ✓        |         ✓            |      ✓         |     •--    |        •--        |     •--     |        •••       |
+| Shadow    |      ✓        |         ✓            |       X        |     •••    |        ---        |     ---     |        •••       |
+
+## Conclusion
+
+Selecting the right strategy depends on several factors including the application type, target audience, and desired balance between speed and safety. Consider the specifics of your project, resources, and the potential impact on users before deciding on the most suitable deployment strategy.
 
 <!-- /MarkdownTOC -->
 </details>
