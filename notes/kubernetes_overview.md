@@ -1,6 +1,8 @@
 # Table of Contents
 1. [Container Orchestration](#overview)
 2. [Kubernetes Overview](#kubernetes_overview)
+3. [Kubernetes Architecture](#kubernetes_architecture)
+4. [Kubernetes Objects](#kubernetes_objects)
 
 
 <a id="overview"></a>
@@ -108,6 +110,141 @@ Kubernetes stands out as a comprehensive container orchestration platform, facil
 
 ---
 
+<a id="kubernetes_architecture"></a>
+# Kubernetes Architecture 
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Overview
+
+Kubernetes is a robust system for managing containerized applications across a cluster of nodes. It automates the deployment, scaling, and operations of application containers.
+
+## Cluster Architecture
+
+### 1. Kubernetes Cluster
+- A set of nodes that run containerized applications.
+- Consists of one master node (the control plane) and several worker nodes.
+
+### 2. Control Plane
+- Maintains the desired state of the cluster.
+- Key components:
+    - **API Server (kube-apiserver)**: The front-end of the control plane that exposes the Kubernetes API, handling internal and external communication.
+    - **etcd**: Reliable distributed data store that persistently stores the cluster configuration.
+    - **Scheduler (kube-scheduler)**: Assigns work, i.e., pods, to nodes based on resource availability.
+    - **Controller Manager (kube-controller-manager)**: Regulates the state of the cluster, ensuring the desired state matches the actual state.
+    - **Cloud Controller Manager**: Interacts with underlying cloud providers, allowing cloud-specific interactions.
+
+### 3. Worker Nodes
+- Host the running applications (user workloads).
+- Can be virtual or physical machines.
+- Key components:
+    - **Pods**: Smallest deployable units that contain one or more containers which share resources.
+    - **Kubelet**: An agent that ensures the pods are running as expected.
+    - **Container Runtime**: Software responsible for running containers (e.g., Docker, Podman, Cri-o).
+    - **Kube-proxy**: Maintains network rules for communication to and from pods.
+
+## Communication Flow
+
+- All components communicate through the **Kubernetes API Server**, ensuring consistent state management.
+- **Kubelet** and **kube-proxy** are node-level proxies that facilitate effective pod and service networking.
+
+## Scalability and Reliability
+
+- Kubernetes supports horizontal scalability, both at the application and cluster level.
+- **etcd** provides high availability and reliability for data storage.
+- **kube-apiserver** is designed for horizontal scaling; instances can be increased for load balancing.
+
+## Pluggability
+
+- Kubernetes supports various container runtimes through the Container Runtime Interface (CRI).
+- The system is cloud-agnostic, with native support for major cloud providers through the **cloud-controller-manager**.
+
+## Conclusion
+
+Kubernetes is a comprehensive container orchestration platform that automates the deployment and scaling processes, designed for extensibility and compatibility with a range of container runtimes and cloud providers. Its architecture is built to ensure application resilience, scalability, and optimal resource utilization.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="kubernetes_objects"></a>
+# Kubernetes Objects
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Kubernetes Objects
+
+- **Persistent entities** in Kubernetes.
+- **Main Fields:**
+  - *Object spec*: Desired state.
+  - *Status*: Current state.
+- **Examples:** Pods, Namespaces, ReplicaSets, Deployments.
+
+## Namespaces
+
+- Isolate resources within a cluster.
+- Examples: `kube-system`, `default`.
+- Scopes names of resources.
+
+## Pods
+
+- Basic execution unit in Kubernetes, representing an app instance.
+- Consist of one or more containers.
+
+## ReplicaSets
+
+- Ensures a specified number of pod replicas are running at any time.
+- Not recommended to be created directly.
+
+## Deployments
+
+- Manages ReplicaSets and provides advanced features.
+- Suitable for stateless applications.
+
+## Services
+
+- Logical set of Pods, providing network policies.
+- Acts as a load balancer.
+- Types:
+  - *ClusterIP*: Internal-only access.
+  - *NodePort*: Exposes service at each node's IP.
+  - *LoadBalancer*: External access via cloud provider's load balancer.
+  - *ExternalName*: Maps service to a DNS name.
+
+## Ingress
+
+- Manages external access to services.
+- Utilizes HTTP/HTTPS routes.
+
+## DaemonSets
+
+- Ensures every node runs a copy of a specific Pod.
+
+## StatefulSets
+
+- Used for stateful applications.
+- Manages deployment and scaling.
+
+## Jobs & CronJobs
+
+- Executes tasks as Pods to completion.
+- CronJobs schedule Jobs periodically.
+
+## Summary
+
+- **Services** handle network policies for Pods.
+- **Ingress** controls external access.
+- **Workloads** are managed by various objects like Deployments, StatefulSets, and Jobs.
+- **DaemonSets** ensure pod copies exist on nodes.
+- **Namespaces** provide isolation.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
 
 <a id="binary"></a>
 ## 
@@ -122,3 +259,15 @@ Kubernetes stands out as a comprehensive container orchestration platform, facil
 
 ---
 
+<a id="binary"></a>
+## 
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
