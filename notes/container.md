@@ -2,7 +2,8 @@
 1. [Containerization: An Overview with Focus on Docker](#overview)
 2. [Introduction to Docker: Summary](#docker)
 3. [Building and Running Containers: Summary](#building_docker)
-
+4. [Introduction to Docker Objects: Summary](#docker_object)
+5. [Docker Architecture: Summary](#docker_architecture)
 
 <a id="overview"></a>
 # Containerization: An Overview with Focus on Docker
@@ -166,6 +167,127 @@ Essential Docker commands: `build`, `images`, `run`, `pull`, and `push`.
 
 ## Conclusion
 This tutorial covered the process of creating a Docker container, from Dockerfile to execution, using core Docker commands.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="docker_object"></a>
+# Introduction to Docker Objects: Summary
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+This summary outlines the core concepts of Docker objects, highlighting Dockerfiles, images, containers, and their functionalities, as well as networking, storage, and plugin integrations within the Docker ecosystem.
+
+## Docker Objects Overview
+
+- **Dockerfile**: A plaintext file containing instructions to build a Docker image.
+- **Images**: Read-only templates used to create containers.
+- **Containers**: Runnable instances of Docker images.
+- **Networks**: Communication constructs that isolate container communications.
+- **Storage Volumes**: Tools for data persistence beyond a container's lifecycle.
+- **Plugins**: Extend Docker's functionality, often integrating third-party additions.
+
+## Essential Dockerfile Instructions
+
+- `FROM`: Specifies the base image (e.g., an OS or language stack).
+- `RUN`: Executes commands, forming new image layers.
+- `CMD`: Sets default command for the container. Only the final CMD in a Dockerfile is considered.
+
+## Docker Images
+
+- Composed via instructions from a Dockerfile.
+- Structured in layers for efficient modification and storage.
+- Shared layers promote space efficiency and quicker transfers.
+- Immutable, with changes during the run time written to a new, top-most writable layer.
+
+## Naming Docker Images
+
+- **Format**: `hostname/repository/tag`
+- **Hostname**: Registry's identity (e.g., `docker.io` for Docker Hub).
+- **Repository**: Grouping of related images.
+- **Tag**: Specific image version or variant identifier.
+
+_Example_: `docker.io/ubuntu:18.04` implies Docker Hub's Ubuntu image version 18.04.
+
+## Docker Containers
+
+- Active, mutable instances of images.
+- Interactable via the Docker API or CLI for creation, modification, starting, or stopping.
+- Isolated from each other and the host, ensuring security.
+- Capable of network, storage, and state modifications.
+
+## Networking and Storage
+
+- **Networks**: Enable isolated communications between containers.
+- **Volumes and Bind Mounts**: Ensure data persistence even after a container ceases.
+- **Storage Plugins**: Allow external storage solutions integration.
+
+## Conclusion
+
+Docker's comprehensive ecosystem, from building images with Dockerfiles to the runtime management of containers, provides robust, isolated, and secure application deployment facilitated by networks and persistent storage solutions.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="docker_architecture"></a>
+# Docker Architecture: Summary
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+This document serves as a quick reference guide to the fundamentals of Docker architecture, encompassing its components and the containerization process.
+
+## Overview of Docker Components
+
+- **Docker Client**: Interface for users, utilizing the command line or REST APIs.
+- **Docker Host**: Environment where the containers are built, run, and managed.
+- **Docker Registry**: Storage system for container images.
+
+## Detailed Component Features
+
+### Docker Client
+
+- Communicates user instructions to the Docker daemon.
+- Can interact with local or remote Docker daemons.
+
+### Docker Host
+
+- Contains the `dockerd` daemon that processes commands.
+- Manages Docker components, including:
+  - Images: Read-only templates used to create containers.
+  - Containers: Runnable Docker images instances.
+  - Namespaces: Layer of isolation (e.g., pid, net).
+  - Networks: Isolated networks for containers to communicate.
+  - Storage: Persistent data stored in volumes.
+  - Plugins and Add-ons: Extend Docker capabilities.
+
+### Docker Registry
+
+- Stores Docker images.
+- Can be public (like Docker Hub) or private (for secure, enterprise-level storage).
+- Hosted by third-party providers or self-hosted solutions.
+
+## Containerization Process
+
+1. **Build**: Create a container image from a Dockerfile or base image.
+2. **Push**: Store the new image in the specified registry.
+3. **Run**: Launch a new container from the image. If the image isn't locally available, Docker pulls it from the registry.
+
+## Docker Architecture Workflow
+
+- The **Client** sends a command, such as `docker run`, to the **Docker Host**.
+- The **Docker daemon (dockerd)** within the host receives and processes the command.
+- If an image is needed and not locally available, the host communicates with the **Registry** to pull the image.
+- The daemon manages the lifecycle of the image's container.
+
+## Conclusion
+
+The Docker architecture streamlines application deployment through its client-server model, involving the Docker client, host (daemon), and registry. This structure simplifies building, storing, and running containerized applications, providing robustness, isolation, and security in managing and deploying software environments.
 
 <!-- /MarkdownTOC -->
 </details>
