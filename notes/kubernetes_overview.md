@@ -300,6 +300,9 @@ Kubernetes is a comprehensive container orchestration platform that automates th
 * Various command types suit different scenarios (development, production).
 * Declarative configuration is best for production environments due to its automation and consistency features.
 
+## References
+* More information and the full kubectl command reference can be found on [Kubernetes official documentation](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands).
+
 <!-- /MarkdownTOC -->
 </details>
 
