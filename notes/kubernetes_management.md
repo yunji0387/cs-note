@@ -1,17 +1,17 @@
 # Managing Application with Kubernetes
 
 # Table of Contents
-1. [Understanding ReplicaSet in Kubernetes](#replica_set)
+1. [ReplicaSet in Kubernetes](#replica_set)
 2. [Autoscaling in Kubernetes](#autoscaling)
-3. [](#rolling_updates)
-4. [](#configMaps_and_secrets)
+3. [Rolling Updates in Kubernetes](#rolling_updates)
+4. [ConfigMaps and Secrets in Kubernetes](#configMaps_and_secrets)
 5. [](#servic_binding)
 
 
 
 
 <a id="replica_set"></a>
-# Understanding ReplicaSet in Kubernetes
+# ReplicaSet in Kubernetes
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
@@ -123,6 +123,129 @@ Autoscaling optimizes resource usage and costs by automatically adjusting the nu
 - Use `autoscale` command for HPA instead of manual configuration for ease of use.
 - Don't use VPA and HPA together on the same CPU/memory metrics.
 - Analyze specific needs to choose the appropriate autoscaler or combination of autoscalers.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="rolling_updates"></a>
+# Rolling Updates in Kubernetes
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Overview
+This document summarizes the concept of rolling updates in Kubernetes, demonstrating how they provide automated, controlled application updates across pods with zero downtime, and how rollbacks can be efficiently handled.
+
+## Objectives
+- Understand what rolling updates are and their workflow.
+- Prepare an application for rolling updates.
+- Execute and rollback a rolling update.
+
+## What are Rolling Updates?
+- Automated updates that incrementally replace application instances with new ones.
+- Work with pod templates, particularly deployments.
+- No downtime for the application as it updates.
+- Allows for easy rollback if the update is problematic.
+
+## Preparing for Rolling Updates
+1. **Add Probes**: Implement liveness and readiness probes for deployments, ensuring instances are marked as 'ready'.
+2. **Update Strategy**: Incorporate a rolling update strategy in the deployment's YAML file.
+   - **maxUnavailable**: Number (or percentage) of pods that can be unavailable during the update.
+   - **maxSurge**: Number (or percentage) of pods that can be created above the desired amount.
+   - **minReadySeconds**: Minimum number of seconds a pod should be ready for it to be considered available.
+   - For zero downtime, set `maxUnavailable` to 0.
+
+## Performing a Rolling Update
+- Update the application's image and push the new version to a container registry (e.g., Docker Hub).
+- Apply the new image to your deployment in Kubernetes.
+- Monitor the status with the `rollout status` command.
+- Verify the update by checking the application's output or response.
+
+## Rolling Back an Update
+- Use the `rollout undo` command to revert to a previous deployment state if an update is faulty or not required.
+- Confirm the changes by inspecting the status of pods or the application's output.
+
+## Strategies for Updates and Rollbacks
+- **All-at-once**: Version N-1 is deactivated then version N is activated. This strategy can block user access momentarily.
+- **One-at-a-time (Staggered)**: Pods are updated incrementally, maintaining continuous user access.
+
+## Conclusion
+- Rolling updates are essential for maintaining applications without interrupting their availability.
+- Preparation with the correct parameters is crucial for successful rolling updates.
+- Kubernetes allows for efficient rollbacks in case of update failures.
+- Both all-at-once and one-at-a-time strategies have their use cases and can be chosen based on the application's tolerance for brief downtimes.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="configMaps_and_secrets"></a>
+# ConfigMaps and Secrets in Kubernetes
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Introduction
+
+This guide provides an overview of ConfigMaps and Secrets within Kubernetes. Both are Kubernetes objects that provide a way to inject configuration data into pods. This allows for the separation of configuration from the application's image, facilitating updates and maintaining sensitive information securely.
+
+## ConfigMaps
+
+### Key Characteristics
+
+- **Purpose**: Store non-confidential data in key-value pairs.
+- **Usage**: Decouple configuration details from application code.
+- **Size Limit**: Cannot exceed 1MB.
+- **Data Fields**: Support for optional data and binary data fields.
+- **Naming Restrictions**: Must conform to DNS subdomain names.
+- **Reusability**: Can be used across multiple deployments.
+
+### Creation Methods
+
+1. **Using String Literals**: Directly from the command line.
+2. **From Properties File**: Using key-value pairs from an existing file.
+3. **From YAML File**: Applying a YAML descriptor file.
+
+### Utilization in Pods
+
+- Injected as environment variables via `configMapKeyRef`.
+- Mounted as files within pods using volume plugins.
+
+### Practical Usage
+
+- Define ConfigMaps before deploying pods or applications.
+- Reference ConfigMaps in deployment descriptors.
+- Variables within ConfigMaps are accessible within the application (e.g., `process.env.VARIABLE_NAME`).
+
+## Secrets
+
+### Overview
+
+- Similar to ConfigMaps but used for storing sensitive information.
+- Content is base64 encoded.
+
+### Creation Methods
+
+1. **Using String Literals**: Create directly from the command line.
+2. **From Environment Variables**: Storing each sensitive piece of information as an environment variable.
+3. **From Files**: Using a volume that references the Secret.
+
+### Handling Secrets
+
+- Verified through the 'get' and 'describe' commands, but the actual secrets are not plainly visible.
+- Can be mounted as volumes or exposed as environment variables.
+
+### Practical Usage
+
+- Secrets are referenced within the application code securely (e.g., `process.env.SECRET_KEY`).
+- When mounted as files, applications read from the filesystem to retrieve the secret values.
+
+## Conclusion
+
+ConfigMaps and Secrets are essential Kubernetes features that enhance security and manageability. By externalizing application configuration and sensitive information, they promote best practices in software development and deployment, allowing for more flexible, secure, and modular applications.
 
 <!-- /MarkdownTOC -->
 </details>
