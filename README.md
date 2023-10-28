@@ -11,7 +11,8 @@
 8. [Cloud Computing](./notes/cloud_computing_notes.md)
 9. [DevOps](./notes/devops_notes.md)
 10. [Agile Development and Scrum](./notes/agile_and_scrum_notes.md)
-11. [Container](./notes/container.md)
+11. [Container - Docker](./notes/container.md)
+12. [Container Orchestration - Kubernetes](./notes/container_orchestration.md)
    
 ---
 
