@@ -3,7 +3,7 @@
 2. [Kubernetes Overview](#kubernetes_overview)
 3. [Kubernetes Architecture](#kubernetes_architecture)
 4. [Kubernetes Objects](#kubernetes_objects)
-
+5. [Using Kubectl](#kubectl)
 
 <a id="overview"></a>
 # Container Orchestration
@@ -246,13 +246,59 @@ Kubernetes is a comprehensive container orchestration platform that automates th
 
 ---
 
-<a id="binary"></a>
-## 
+<a id="kubectl"></a>
+# Using Kubectl
 <details close>
 <summary><b>(click to expand/hide)</b></summary>
 <!-- MarkdownTOC -->
 
+## Introduction
+* Kubectl is the command-line interface (CLI) for Kubernetes.
+* It allows management of Kubernetes clusters and workloads.
+* Essential for deploying applications, managing resources, viewing logs, etc.
 
+## Kubectl Command Structure
+* **Command**: Operation to be performed (e.g., `create`, `get`, `apply`, `delete`).
+* **Type**: Resource type (e.g., `pod`, `deployment`, `ReplicaSet`).
+* **Name**: Resource name (specific to the resource).
+* **Flags**: Special options/modifiers (override default behavior).
+
+## Types of Kubectl Commands
+1. **Imperative Commands**
+   - Direct interaction with live objects.
+   - Easy to learn and fast to execute.
+   - No audit trail; not ideal for production.
+   - Example: `kubectl run nginx --image=nginx`
+
+2. **Imperative Object Configuration**
+   - Use YAML or JSON files for resource configuration.
+   - Files can be version controlled, providing an audit trail.
+   - Requires understanding of object schema.
+   - Example: `kubectl create -f nginx.yaml`
+
+3. **Declarative Object Configuration**
+   - Define the desired state in a YAML or JSON file.
+   - Kubectl automatically applies changes.
+   - Ideal for production use.
+   - Example: `kubectl apply -f configs/`
+
+## Commonly Used Kubectl Commands
+* `kubectl get`: Retrieve resources.
+* `kubectl delete`: Remove resources.
+* `kubectl apply`: Apply changes to resources.
+* `kubectl scale`: Adjust the number of replicas.
+* ... (additional commands can be listed)
+
+## Examples of Command Usage
+* List services in the current namespace: `kubectl get services`
+* Create resources from a URL: `kubectl apply -f https://example.com/config.yaml`
+* Scale a ReplicaSet: `kubectl scale replicaset foo --replicas=3`
+* Create a deployment with replicas: `kubectl apply -f deployment.yaml` (with replica configuration in the file)
+
+## Conclusion
+* Kubectl is essential for interacting with Kubernetes.
+* Various command types suit different scenarios (development, production).
+* Declarative configuration is best for production environments due to its automation and consistency features.
 
 <!-- /MarkdownTOC -->
 </details>
