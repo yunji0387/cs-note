@@ -2,7 +2,7 @@
 
 # Table of Contents
 1. [Understanding ReplicaSet in Kubernetes](#replica_set)
-2. [](#autoscaling)
+2. [Autoscaling in Kubernetes](#autoscaling)
 3. [](#rolling_updates)
 4. [](#configMaps_and_secrets)
 5. [](#servic_binding)
@@ -64,6 +64,65 @@ Single pods can't:
 
 ## Additional Resources
 - More on Kubernetes ReplicaSets can be found in the [official documentation](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="autoscaling"></a>
+# Autoscaling in Kubernetes
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Overview
+Autoscaling optimizes resource usage and costs by automatically adjusting the number of running instances or resources in response to current demand.
+
+### Objectives
+- Understand what autoscaling is.
+- Identify the types of autoscalers in Kubernetes.
+- Learn how each autoscaler operates.
+
+## Types of Autoscalers
+
+### 1. Horizontal Pod Autoscaler (HPA)
+- Adjusts the number of pod instances in a deployment or ReplicaSet.
+- Operates based on CPU utilization or other select metrics.
+- Responds to the workload changes by scaling the number of pods up or down.
+
+#### How HPA Works
+- Metrics like CPU utilization trigger scaling actions.
+- As demand increases, HPA increases the number of pods ("scaling out").
+- When demand drops, HPA decreases the number of pods ("scaling in").
+
+### 2. Vertical Pod Autoscaler (VPA)
+- Adjusts the compute resources of containers in pods.
+- Increases or decreases the CPU and memory reservations as needed.
+- Not typically used alongside HPA for the same resource metrics.
+
+#### How VPA Works
+- VPA adjusts the resources of the pods (CPU, memory) based on demand.
+- During high demand, VPA increases resources ("scaling up").
+- As demand decreases, it reduces the resources ("scaling down").
+
+### 3. Cluster Autoscaler (CA)
+- Adjusts the size of the Kubernetes cluster.
+- Adds or removes nodes from the cluster based on the overall demand.
+
+#### How CA Works
+- When pod requests increase, CA adds new nodes to the cluster.
+- CA removes nodes during low demand to optimize resource usage and costs.
+
+## Key Takeaways
+- Autoscalers ensure efficient use of resources in a Kubernetes cluster.
+- HPA, VPA, and CA serve different purposes and can sometimes be used in combination for effective scaling.
+- It's essential to choose the right type of autoscaler based on workload requirements and cost considerations.
+
+## Best Practices
+- Use `autoscale` command for HPA instead of manual configuration for ease of use.
+- Don't use VPA and HPA together on the same CPU/memory metrics.
+- Analyze specific needs to choose the appropriate autoscaler or combination of autoscalers.
 
 <!-- /MarkdownTOC -->
 </details>
