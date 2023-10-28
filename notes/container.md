@@ -4,6 +4,7 @@
 3. [Building and Running Containers: Summary](#building_docker)
 4. [Introduction to Docker Objects: Summary](#docker_object)
 5. [Docker Architecture: Summary](#docker_architecture)
+6. [Docker Cheat Sheet](./docker_cheat_sheet.pdf)
 
 <a id="overview"></a>
 # Containerization: An Overview with Focus on Docker
