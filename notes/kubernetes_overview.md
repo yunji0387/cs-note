@@ -1,6 +1,6 @@
 # Table of Contents
 1. [Container Orchestration](#overview)
-2. [](#)
+2. [Kubernetes Overview](#kubernetes_overview)
 
 
 <a id="overview"></a>
@@ -54,6 +54,61 @@ Container orchestration is indispensable for modern software environments, addre
 
 ---
 
+<a id="kubernetes_overview"></a>
+# Kubernetes Overview 
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## What is Kubernetes?
+
+- **Description**: An open-source system for automating deployment, scaling, and management of containerized applications.
+- **Origin**: Developed by Google, now maintained by the Cloud Native Computing Foundation.
+- **Portability**: Works across clouds and on-premises environments.
+- **Position**: Recognized as the standard solution for container orchestration.
+
+## What Kubernetes is NOT
+
+- A traditional, all-inclusive PaaS (Platform as a Service).
+- Does NOT provide CI/CD pipelines, dictate specific logging/monitoring solutions, or offer built-in middleware or databases.
+
+## Core Concepts
+
+- **Pods**: Smallest deployable units of computing that can be created and managed in Kubernetes.
+- **Services**: Policies to expose applications running on a set of Pods as network services.
+- **Storage**: Options for both temporary and persistent data storage.
+- **Configuration**: Resources for configuring Pods.
+- **Security**: Measures for ensuring Pod and API access security.
+- **Policies and Scheduling**: Rules and methods for resource allocation and management.
+
+## Key Capabilities
+
+- **Automated Rollouts/Rollbacks**: Monitoring application health and undoing changes if necessary.
+- **Storage Orchestration**: Automatic mounting of storage systems.
+- **Horizontal Scaling**: Adjusting application resources based on utilization metrics.
+- **Automated Bin Packing**: Efficient container placement based on resource requirements.
+- **Secret and Configuration Management**: Secure handling of sensitive information.
+- **Networking**: Assigning IPv4/IPv6 addresses to Pods and Services.
+- **Batch Execution and Self-Healing**: Managing batch and CI workloads; auto-recovery of containers.
+- **Service Discovery and Load Balancing**: Traffic distribution for performance and availability.
+- **Extensibility**: Enhancing cluster features without altering the source code.
+
+## Ecosystem
+
+- **Services**: Requires additional tools for complete application deployment (e.g., container image building, storage, logging/monitoring, CI/CD capabilities).
+- **Partners/Providers**: Extensive support network including major cloud providers (IBM, Google, AWS), open-source frameworks (Red Hat, VMWare, Docker), management tools, and more.
+- **Specialized Providers**: Includes dedicated options for monitoring/logging, security, and load balancing services.
+
+## Conclusion
+
+Kubernetes stands out as a comprehensive container orchestration platform, facilitating efficient deployment and management of containerized applications. With a versatile feature set and a robust ecosystem, it supports a diverse range of workloads, promoting scalability, resilience, and efficiency in modern IT environments.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+
 <a id="binary"></a>
 ## 
 <details close>
@@ -66,3 +121,4 @@ Container orchestration is indispensable for modern software environments, addre
 </details>
 
 ---
+
