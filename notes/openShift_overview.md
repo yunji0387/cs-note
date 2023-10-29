@@ -3,6 +3,7 @@
 # Table of Contents
 1. [Introduction to Red Hat OpenShift](#openShift_overview)
 2. [OpenShift Builds Overview](#builds)
+3. [Understanding Operators in Kubernetes](#operators)
 
 
 <a id="openShift_overview"></a>
@@ -142,6 +143,84 @@ OpenShift enhances Kubernetes by offering a robust, enterprise-ready platform wi
 - Different strategies (S2I, Docker, Custom) cater to various use-cases and complexity levels.
 - ImageStreams offer a level of abstraction and convenience, working in tandem with builds for a streamlined application update process.
 - Automation and CI/CD integration are vital for efficient and reliable application delivery.
+
+<!-- /MarkdownTOC -->
+</details>
+
+---
+
+<a id="operators"></a>
+# Understanding Operators in Kubernetes
+<details close>
+<summary><b>(click to expand/hide)</b></summary>
+<!-- MarkdownTOC -->
+
+## Introduction
+
+This document provides an overview of Operators in Kubernetes, highlighting their purpose, relation to custom controllers and CRDs, and the various tools and models associated with them.
+
+## Definition of an Operator
+
+- **Operator**: A method of packaging, deploying, and managing a Kubernetes application.
+  - Acts like a custom controller within the Kubernetes system to manage custom resources.
+  - Automates complex tasks like application deployment, scaling, and backup/restore processes.
+- **Types**:
+  - **Human operators**: Manage systems manually, handle deployments, and troubleshoot issues.
+  - **Software operators**: Encode human operator knowledge into software, automating manual processes.
+
+## Operators vs. Service Brokers
+
+- **Service Brokers**:
+  - Short-lived processes, handling initial setup but not continuous operations.
+  - Limited to actions at the time of installation.
+- **Operators**:
+  - Long-running processes, handling ongoing management tasks.
+  - Continuously monitor and react to cluster state.
+
+## Custom Resource Definitions (CRDs)
+
+- Extend Kubernetes API with custom resources.
+- Used by Operators to understand and manage new kinds of stateful applications on Kubernetes clusters.
+
+## The Operator Pattern
+
+- **Combination** of CRDs and custom controllers.
+  - Custom controllers read CRD data and manage resources to reach the desired state described by CRDs.
+- Leads to the creation of **declarative APIs** within Kubernetes.
+
+## Operator Framework
+
+- A toolkit providing facilities to develop, test, and maintain Operators.
+  - **Operator SDK**: Simplifies Operator development by leveraging Helm, Go, and Ansible. No need to understand the complexity of Kubernetes API interactions.
+  - **Operator Lifecycle Manager (OLM)**: Manages the lifecycle of Operators within a cluster.
+  - **Operator Registry**: Stores Operator components and metadata, making Operators discoverable and manageable through OLM.
+
+## OperatorHub
+
+- A central repository providing a collection of vetted Operators for deployment on Kubernetes clusters.
+- Contains various categories of Operators:
+  - **Red Hat Operators**: Tested and validated by Red Hat.
+  - **Certified Operators**: Provided by third-party vendors and certified by Red Hat.
+  - **Community Operators**: Contributed by the Kubernetes community, with no direct support from Red Hat.
+  - **Custom Operators**: Created by users to handle specific, custom tasks.
+
+## Operator Maturity Model
+
+- Outlines the evolution phases of Operators, from simple installation (Basic Install) to fully automated management (Auto Pilot).
+- Indicates capabilities depending on the sophistication of the Operator logic.
+
+## Examples of Operator Tasks
+
+- Comprehensive application deployment, including associated resources like Secrets, ConfigMaps, and storage.
+- Application scaling, using intelligent automation based on the specific application type.
+- Routine cluster tasks automation, such as backup and restore operations.
+- Deep integration into the Kubernetes API and CLI tools (`kubectl`, `oc`).
+
+## Conclusion
+
+- Operators extend Kubernetes' capabilities, allowing for more sophisticated application management through automated, software-defined operations.
+- The ecosystem (Operator Framework, OperatorHub) supports the entire lifecycle of Operator development and management.
+- Operators signify a maturity in cluster management, moving from manual interventions to an automated "as-a-service" experience.
 
 <!-- /MarkdownTOC -->
 </details>
