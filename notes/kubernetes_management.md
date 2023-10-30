@@ -158,7 +158,7 @@ There are several deployment strategies, including:
 Each strategy has its unique approach and use cases. They can be used independently or combined, depending on the deployment requirements.
 
 ### Recreate Strategy
-
+![recreate_strategy](./images/recreate_strategy.png)
 The recreate strategy involves stopping all existing Pods and starting new ones.
 
 #### Steps
@@ -171,7 +171,7 @@ The recreate strategy involves stopping all existing Pods and starting new ones.
 - **Cons**: Downtime during redeployment
 
 ### Rolling Strategy
-
+![rolling(ramped)strategy](./images/rolling(ramped)strategy.png)
 The rolling update strategy incrementally replaces Pods with new ones.
 
 #### Steps
@@ -184,7 +184,7 @@ The rolling update strategy incrementally replaces Pods with new ones.
 - **Cons**: Slower deployment, no traffic control
 
 ### Blue/Green Strategy
-
+![blue_green_strategy](./images/blue_green_strategy.png)
 This strategy involves having two identical production environments (blue and green).
 
 #### Steps
@@ -197,7 +197,7 @@ This strategy involves having two identical production environments (blue and gr
 - **Cons**: High resource cost, demands extensive testing
 
 ### Canary Strategy
-
+![canary_strategy](./images/canary_strategy.png)
 The canary release strategy exposes a subset of users to the new application version.
 
 #### Steps
@@ -210,7 +210,7 @@ The canary release strategy exposes a subset of users to the new application ver
 - **Cons**: More complex setup, slower complete rollout
 
 ### A/B Testing Strategy
-
+![a_b_testing_strategy](./images/a_b_testing_strategy.png)
 A/B testing involves providing two versions to different user sets.
 
 #### Steps
@@ -223,7 +223,7 @@ A/B testing involves providing two versions to different user sets.
 - **Cons**: Complexity, requires advanced traffic routing
 
 ### Shadow Strategy
-
+![shadow_strategy](./images/shadow_strategy.png)
 The shadow strategy deploys a 'shadow' version alongside the live version.
 
 #### Steps
