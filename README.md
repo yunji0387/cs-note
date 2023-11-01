@@ -8,10 +8,6 @@
 5. [Data Structure](#data_structure)
 6. [Sorting & Searching](#sort_search)
 7. [Algorithms](#algorithm)
-8. [Cloud Computing](./notes/cloud_computing_notes.md)
-9. [DevOps](./notes/devops_notes.md)
-10. [Agile Development and Scrum](./notes/agile_and_scrum_notes.md)
-11. [Introduction to Containers w/ Docker, Kubernetes & OpenShift](./notes/container_overview.md)
    
 ---
 
